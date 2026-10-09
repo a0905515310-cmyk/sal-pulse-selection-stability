@@ -83,7 +83,7 @@ a read-only evidence export after the earlier computations were frozen.
 
 Code, scripts, workflow files, and documentation are licensed under the
 [MIT License](LICENSE). Files under `data/` are licensed under
-[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-DATA).
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](licenses/DATA-CC-BY-4.0.txt).
 These scopes are separate; MIT does not govern the datasets, and CC BY 4.0
 does not govern the source code. When redistributing data, credit the authors,
 link to the license, and indicate if changes were made.
