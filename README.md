@@ -1,8 +1,33 @@
-# Pulse-selection stability under HPRF and false-return interference
+# Improving guidance-pulse selection stability across cycles using a hybrid-coding-assisted dual-feature criterion for semi-active laser lock-on tracking
 
-Research code and frozen numerical evidence prepared for a proposed *Optical
-Engineering* manuscript. The final manuscript title and citation will be
-added after author confirmation.
+Research code and frozen numerical evidence for a proposed *Optical Engineering*
+manuscript.
+
+## Authors
+
+| Author | Affiliation |
+| --- | --- |
+| Zhen Zhang | a |
+| Ailing Tian (corresponding author) | a |
+| Changyuan Wang | b |
+| Bingcai Liu | a |
+| Hongjun Wang | a |
+| Xueliang Zhu | a |
+| Xinmeng Fang | a |
+| Juan Du | c |
+| Jialin Dang | a |
+| Jintao Xu | c |
+
+Correspondence: Ailing Tian, [ailintian@xatu.edu.cn](mailto:ailintian@xatu.edu.cn).
+
+## Affiliations
+
+- a. Shaanxi Province Key Laboratory of Thin Films Technology and Optical Test,
+  Xi’an Technological University, Xi’an, Shaanxi Province 710021, China
+- b. College of Computer Science, Xi’an Technological University, Xi’an 710021,
+  China
+- c. Xi’an Zhongke Xunjie Optoelectronic Technology Co., Ltd., Xi’an, Shaanxi
+  Province 710000, China
 
 ## What is in this repository
 
@@ -34,7 +59,7 @@ The script verifies 5,385 data-file SHA256 hashes, 23 Stage 11 artifact
 hashes, and eight figure-source provenance links. It writes seven PDF/SVG/PNG/
 TIFF figure sets, a combined PDF, previews, and a JSON verification report to
 `results/`. GitHub Actions runs the same command on Linux for each push and
-pull request. The first GitHub Actions run must be checked after upload.
+pull request.
 
 The default command **does not** rerun the 190,000-row Formal simulation or
 the B=2000 Bootstrap. It regenerates figures from the frozen evidence. Source
@@ -56,8 +81,14 @@ a read-only evidence export after the earlier computations were frozen.
 
 ## Citation and reuse
 
-Author names, affiliations, final title, and code/data licenses require
-author confirmation before a public release. Cite a versioned GitHub release
-or commit in the manuscript. GitHub does not itself mint a DOI; if a DOI is
-required, archive the released version with a DOI issuing repository such as
-Zenodo.
+Code, scripts, workflow files, and documentation are licensed under the
+[MIT License](LICENSE). Files under `data/` are licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-DATA).
+These scopes are separate; MIT does not govern the datasets, and CC BY 4.0
+does not govern the source code. When redistributing data, credit the authors,
+link to the license, and indicate if changes were made.
+
+Cite a versioned GitHub release or commit in the manuscript. GitHub does not
+itself mint a DOI; if a DOI is required, archive the released version with a
+DOI issuing repository such as Zenodo. The repository's `CITATION.cff` records
+the author list and affiliations supplied for the manuscript.

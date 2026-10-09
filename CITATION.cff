@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying data, please cite this repository and the associated manuscript when available."
+type: software
+title: "Improving guidance-pulse selection stability across cycles using a hybrid-coding-assisted dual-feature criterion for semi-active laser lock-on tracking"
+repository-code: "https://github.com/a0905515310-cmyk/sal-pulse-selection-stability"
+license: MIT
+authors:
+  - given-names: Zhen
+    family-names: Zhang
+    affiliation: "Shaanxi Province Key Laboratory of Thin Films Technology and Optical Test, Xi’an Technological University, Xi’an, Shaanxi Province 710021, China"
+  - given-names: Ailing
+    family-names: Tian
+    affiliation: "Shaanxi Province Key Laboratory of Thin Films Technology and Optical Test, Xi’an Technological University, Xi’an, Shaanxi Province 710021, China"
+    email: ailintian@xatu.edu.cn
+  - given-names: Changyuan
+    family-names: Wang
+    affiliation: "College of Computer Science, Xi’an Technological University, Xi’an 710021, China"
+  - given-names: Bingcai
+    family-names: Liu
+    affiliation: "Shaanxi Province Key Laboratory of Thin Films Technology and Optical Test, Xi’an Technological University, Xi’an, Shaanxi Province 710021, China"
+  - given-names: Hongjun
+    family-names: Wang
+    affiliation: "Shaanxi Province Key Laboratory of Thin Films Technology and Optical Test, Xi’an Technological University, Xi’an, Shaanxi Province 710021, China"
+  - given-names: Xueliang
+    family-names: Zhu
+    affiliation: "Shaanxi Province Key Laboratory of Thin Films Technology and Optical Test, Xi’an Technological University, Xi’an, Shaanxi Province 710021, China"
+  - given-names: Xinmeng
+    family-names: Fang
+    affiliation: "Shaanxi Province Key Laboratory of Thin Films Technology and Optical Test, Xi’an Technological University, Xi’an, Shaanxi Province 710021, China"
+  - given-names: Juan
+    family-names: Du
+    affiliation: "Xi’an Zhongke Xunjie Optoelectronic Technology Co., Ltd., Xi’an, Shaanxi Province 710000, China"
+  - given-names: Jialin
+    family-names: Dang
+    affiliation: "Shaanxi Province Key Laboratory of Thin Films Technology and Optical Test, Xi’an Technological University, Xi’an, Shaanxi Province 710021, China"
+  - given-names: Jintao
+    family-names: Xu
+    affiliation: "Xi’an Zhongke Xunjie Optoelectronic Technology Co., Ltd., Xi’an, Shaanxi Province 710000, China"
