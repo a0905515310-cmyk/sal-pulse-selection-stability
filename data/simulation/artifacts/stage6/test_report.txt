@@ -1,0 +1,19 @@
+Python version: 3.12.10
+NumPy version: 2.5.2
+pytest version: 9.1.1
+Stage1-5 baseline test count: 283
+Stage6 test count: 33
+Total test count: 316
+Passed: 316
+Failed: 0
+Full pytest wall seconds: 36.790065
+Full pytest executions inside build_stage6.py: 1
+build_stage6 scientific validation result: PASS
+
+pytest output:
+........................................................................ [ 22%]
+........................................................................ [ 45%]
+........................................................................ [ 68%]
+........................................................................ [ 91%]
+............................                                             [100%]
+316 passed in 36.12s

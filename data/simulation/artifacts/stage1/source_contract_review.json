@@ -1,0 +1,81 @@
+{
+  "review_basis": "uploaded contracts and handoff document",
+  "files": [
+    {
+      "ordinal": 0,
+      "name": "第0项_研究定位与稳定性证据链重构总裁决(3).md",
+      "sha256": "3dc5955941a1c9f21e7b88c03c6523140661ac4ecfc92d90af5bf08c2d880f07",
+      "bytes": 32505
+    },
+    {
+      "ordinal": 1,
+      "name": "第1项_方法全过程_稳定性主线重构版(3).md",
+      "sha256": "d18282a7d53aafa6d0707f1b9555e6f6fd9c003fd7e9616550ee922f74aa5623",
+      "bytes": 24618
+    },
+    {
+      "ordinal": 2,
+      "name": "第2项_LFSR-PWM混合编码与同步参考量生成_稳定性主线重构正式版(1).md",
+      "sha256": "1f810806dbb3eea3f1dd2561251a801000a071a183fc15d81a173e8c420fa68d",
+      "bytes": 27520
+    },
+    {
+      "ordinal": 3,
+      "name": "第3项_双特征联合准则数学表达_稳定性主线重构正式版(1).md",
+      "sha256": "272c8cf0a841e82a31a9a3e0bf303600c82256648d4e531b33b2dffbe92f29a3",
+      "bytes": 26661
+    },
+    {
+      "ordinal": 4,
+      "name": "第4项_跨周期状态更新与误选恢复_稳定性主线重构版(2).md",
+      "sha256": "8e795bbc1957d0d5b9a2b69876b2230112e64c539a5ca22701e9bac32a41b586",
+      "bytes": 22636
+    },
+    {
+      "ordinal": 5,
+      "name": "第5项_制导脉冲选取稳定性评价指标_稳定性主线重构版(2).md",
+      "sha256": "1dc466f1ec70d106703225b1f869875d3af69cca77de3a7d30caf266205a5fd2",
+      "bytes": 23982
+    },
+    {
+      "ordinal": 6,
+      "name": "第6项_核心对照方法与归因关系_稳定性主线重构版(2).md",
+      "sha256": "f32841bbbbf2e90165b4943ff46cdbc00213b5e1048c9ca2202a0d842d96f3f1",
+      "bytes": 22006
+    },
+    {
+      "ordinal": 7,
+      "name": "第7项_四类数值场景与稳定性证据任务_稳定性主线重构版(2).md",
+      "sha256": "93f030cb8e2207b2ef0b0f68945c6ff3761df0e44dba20a86423c03599bd1592",
+      "bytes": 34244
+    },
+    {
+      "ordinal": 8,
+      "name": "第7项第二层_四类数值场景具体参数裁决_稳定性主线重构版(2).md",
+      "sha256": "8e195b0a82392bad4fa9849a42f6cefe35b0f3245c50bb4089b6b3f5a7d4ccaa",
+      "bytes": 21983
+    },
+    {
+      "ordinal": 9,
+      "name": "第7项第三层_19组正式物理条件执行矩阵与预检查任务_稳定性主线重构正式版(1).md",
+      "sha256": "6bee0b974cd196530524b0fcbd75c3b946fc3e9b613e00cbfbf5ebaca9a257ec",
+      "bytes": 28392
+    },
+    {
+      "ordinal": 10,
+      "name": "第8项_统一数值实现、随机量寻址与验收规范_稳定性主线重构正式版(1).md",
+      "sha256": "4417d4607496259f25f44c990dc94a8067936ed0af545b277b2ec525a3dc8b5f",
+      "bytes": 50240
+    },
+    {
+      "ordinal": 11,
+      "name": "粘贴的 markdown (1)。md(20260822-033605)",
+      "sha256": "bebc8b8db71706bb2969e363af75bd33445cfcfd4919e2c385ad7cfd14baec2c",
+      "bytes": 35916
+    }
+  ],
+  "version_resolution": {
+    "nonblocking_warning": "The uploaded second-layer scenario-parameter file still contains the retired 25-condition set. The handoff priority plus the later third-layer formal contract and item 8 freeze 19 conditions, so Stage 1 uses the later 19-condition definition.",
+    "blocking": false
+  }
+}

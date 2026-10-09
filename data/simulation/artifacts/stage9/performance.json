@@ -1,0 +1,169 @@
+{
+  "AuditWallSeconds": 39.86026419999689,
+  "BootstrapExecuted": false,
+  "CPUCount": 20,
+  "ComputedChunksThisInvocation": 1900,
+  "ConditionTimings": [
+    {
+      "ChunkWallSecondsSum": 272.47192850002466,
+      "ComputedChunks": 100,
+      "ConditionCode": "NI",
+      "ConditionOrdinal": 0,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 428.35172150000653,
+      "ComputedChunks": 100,
+      "ConditionCode": "H100",
+      "ConditionOrdinal": 1,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 595.7478702999942,
+      "ComputedChunks": 100,
+      "ConditionCode": "H200",
+      "ConditionOrdinal": 2,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 746.1275048999778,
+      "ComputedChunks": 100,
+      "ConditionCode": "H300",
+      "ConditionOrdinal": 3,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 889.528373000001,
+      "ComputedChunks": 100,
+      "ConditionCode": "H400",
+      "ConditionOrdinal": 4,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 1020.735945000004,
+      "ComputedChunks": 100,
+      "ConditionCode": "H500",
+      "ConditionOrdinal": 5,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 297.82273859999987,
+      "ComputedChunks": 100,
+      "ConditionCode": "F1",
+      "ConditionOrdinal": 6,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 299.5717006000341,
+      "ComputedChunks": 100,
+      "ConditionCode": "F2",
+      "ConditionOrdinal": 7,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 300.14504509999824,
+      "ComputedChunks": 100,
+      "ConditionCode": "F3",
+      "ConditionOrdinal": 8,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 299.1118372999954,
+      "ComputedChunks": 100,
+      "ConditionCode": "F4",
+      "ConditionOrdinal": 9,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 617.6023294000188,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF200-1",
+      "ConditionOrdinal": 10,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 625.7997814999944,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF200-2",
+      "ConditionOrdinal": 11,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 631.6367551999901,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF200-3",
+      "ConditionOrdinal": 12,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 763.7333057000033,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF300-1",
+      "ConditionOrdinal": 13,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 769.3995741000108,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF300-2",
+      "ConditionOrdinal": 14,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 780.1060798999897,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF300-3",
+      "ConditionOrdinal": 15,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 1042.3426621000108,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF500-1",
+      "ConditionOrdinal": 16,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 1060.5126600999902,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF500-2",
+      "ConditionOrdinal": 17,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    },
+    {
+      "ChunkWallSecondsSum": 1071.2114617999614,
+      "ComputedChunks": 100,
+      "ConditionCode": "HF500-3",
+      "ConditionOrdinal": 18,
+      "RecomputedInvalidChunks": 0,
+      "SkippedChunks": 0
+    }
+  ],
+  "Environment": "Windows-11-10.0.26200-SP0",
+  "FormalInvocationWallSeconds": 12512.0588012,
+  "FormalMethodCycles": 38000000,
+  "NumPyVersion": "2.5.2",
+  "PreflightWallSeconds": 18.544464399998105,
+  "PythonVersion": "3.12.10",
+  "RecomputedInvalidChunksThisInvocation": 0,
+  "SkippedValidChunksThisInvocation": 0,
+  "TotalBuildWallSecondsBeforePackaging": 13124.394257299999
+}

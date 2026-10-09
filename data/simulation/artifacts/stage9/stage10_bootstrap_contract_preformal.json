@@ -1,0 +1,52 @@
+{
+  "BootstrapB": 2000,
+  "BootstrapExecuted": false,
+  "BootstrapNamespace": "BOOTSTRAP",
+  "ContractName": "STAGE10_BOOTSTRAP_SCOPE_PRE_FORMAL",
+  "ContractVersion": 1,
+  "CoreMetrics": [
+    "P_cor",
+    "P_C_given_C",
+    "P_C_given_E",
+    "Mean_L_NC"
+  ],
+  "IndependentUnit": "Repeat",
+  "IndividualMethodIntervals": [
+    "FIRST",
+    "LAST",
+    "T",
+    "W",
+    "TW"
+  ],
+  "InterferenceConditionOrdinals": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "LockedBeforeFormal": true,
+  "NIInference": "consistency only",
+  "NoConditionDropping": true,
+  "NoOutcomeDirectionRule": true,
+  "NoPValueRequirement": true,
+  "NoParameterChange": true,
+  "NoPostFormalContrastAddition": true,
+  "PrimaryPairedContrast": "TW - T",
+  "SecondaryAblationContrast": "TW - W",
+  "Stage8PrecisionContractScope": "T/TW only",
+  "TWWIntervalsGuaranteedToMeetStage8HalfWidthTarget": false
+}

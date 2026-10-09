@@ -1,0 +1,39 @@
+{
+  "AuditRepeatIDs": [
+    1
+  ],
+  "AuditSnapshotSHA256": "ebbb8b5f28e0319f916d1f1a276331bc1eed80e4dc63689942b50d2b28a46f95",
+  "ChunkSize": 20,
+  "CodeSHA256": "c827522620f32a7466597c654407d72bb2901e59a22cfdb572b6524e5231029b",
+  "CodeVersion": "0.9.0",
+  "Completed": true,
+  "ConditionCode": "H100",
+  "ConditionOrdinal": 1,
+  "DataSHA256": "2e3d9cfcac9c4e0769cbbf9829ff852b22cb0703c8f88e43cdc4c9d84ac1974a",
+  "Diagnostic": false,
+  "FormalR": 2000,
+  "HCacheEnabled": true,
+  "MethodExecutionOrder": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "Namespace": "FORMAL",
+  "NoNPassed": true,
+  "RepeatCount": 20,
+  "RepeatEnd": 20,
+  "RepeatMetricsSHA256": "06d2224be17e3a35a2c99caa7e2e5cf9ec98a0a68b6bb6f50643f982f4966e3c",
+  "RepeatStart": 1,
+  "Resume": true,
+  "RunKind": "FORMAL",
+  "SchemaVersion": 1,
+  "Stage10PreformalContractSHA256": "79fdae99716ea047d44171b332b2e2fc5bdeb311fa454b8092ba1f008c6b6b7a",
+  "Stage8BaselineZIPSHA256": "a440cae9bbef5474bf30d8abc32078646bf76219910a6a37e31863065e233a3b",
+  "Stage8DecisionContractSHA256": "1991d8cec0a91438ccd95a5e96ed02cfd4d27285e9e2fa4eba047f9938e285e6",
+  "Stage8DecisionInputSHA256": "655ffd9f03a7a7824662c9a7a1a2281ed620c73019239236e386fb15eac0eb7b",
+  "Stage8RDecisionSHA256": "13a8c9ec8a7debb0c0d3c64ac790efb12fa4f444320ec77ff5812c5e7a48c70c",
+  "StudyConfigSHA256": "4419f964beee079f67c83ed759b0b8295052d46a037e692c844a81337b232ecb",
+  "Workers": 2
+}

@@ -1,0 +1,102 @@
+{
+  "ContractName": "STAGE8_FORMAL_R_AUTOMATIC_DECISION",
+  "ContractVersion": 1.0,
+  "FormalUsesSingleRForAllConditionsAndMethods": true,
+  "IndependentUnit": "Repeat",
+  "IndividualPrecisionCellCount": 144,
+  "IndividualRequiredRFormula": "ceil(Z975^2*s_psi_upper_sq/TargetHalfWidth^2)",
+  "InfluenceQuantity": "psi_r=(A_r-theta_hat*B_r)/B_bar",
+  "InterferenceConditionOrdinals": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "LockedBeforePilot": true,
+  "MeanLncHalfWidthTarget": 0.25,
+  "MethodCodes": [
+    "T",
+    "TW"
+  ],
+  "MethodOrdinals": [
+    2,
+    4
+  ],
+  "Metrics": [
+    "P_cor",
+    "P_C_given_C",
+    "P_C_given_E",
+    "Mean_L_NC"
+  ],
+  "MinimumPositiveDenominatorRepeats": 30,
+  "MinimumTotalDenominator": 100,
+  "NoConditionDropping": true,
+  "NoManualOverride": true,
+  "NoOutcomeDirectionRule": true,
+  "NoParameterChange": true,
+  "PairedInfluenceQuantity": "psi_delta_r=psi_TW_r-psi_T_r",
+  "PairedPrecisionCellCount": 72,
+  "PairedRequiredRFormula": "ceil(Z975^2*s_delta_upper_sq/TargetHalfWidth^2)",
+  "ProbabilityHalfWidthTarget": 0.02,
+  "ProjectedHalfWidth": "Z975*sqrt(s_variance_upper_sq/R)",
+  "ProjectedPrecisionWarningRule": "If any required R exceeds 2000, retain 2000 and record warning",
+  "R1000Rule": {
+    "Operator": "ALL",
+    "RequiredChecks": [
+      "Stage7PilotDataComplete",
+      "R0Equals200",
+      "Conditions1Through18Complete",
+      "MethodsTAndTWComplete",
+      "RepeatIDs1Through200UniqueAndComplete",
+      "AllFourMetricsDefined",
+      "AllNonfixedTotalDenominatorsAtLeast100",
+      "AllNonfixedPositiveDenominatorRepeatCountsAtLeast30",
+      "All144IndividualRequiredRValuesAtMost1000",
+      "All72PairedRequiredRValuesAtMost1000"
+    ]
+  },
+  "R2000Rule": "Use 2000 if any R1000Rule check fails",
+  "RatioDefinitions": {
+    "Estimator": "sum(A_r) / sum(B_r)",
+    "ForbiddenEstimator": "mean(A_r / B_r)",
+    "Mean_L_NC": {
+      "A_r": "Sum_L_NC_obs",
+      "B_r": "N_run_NC"
+    },
+    "P_C_given_C": {
+      "A_r": "N_CC",
+      "B_r": "N_Cdot"
+    },
+    "P_C_given_E": {
+      "A_r": "N_EC",
+      "B_r": "N_Edot"
+    },
+    "P_cor": {
+      "A_r": "N_C",
+      "B_r": 200
+    }
+  },
+  "RformalCandidates": [
+    1000,
+    2000
+  ],
+  "Rpre": 200,
+  "TotalPrecisionCellCount": 216,
+  "VarianceEstimator": "sum((psi_r-mean(psi))^2)/(R0-1)",
+  "VarianceUCBMultiplier": 1.1890464657347386,
+  "Z975": 1.96
+}

@@ -1,0 +1,37 @@
+{
+  "original_artifacts_unchanged": 23,
+  "retained_cells": {
+    "individual.csv": {
+      "row_count": 360,
+      "all_retained_cells_text_identical": true
+    },
+    "paired.csv": {
+      "row_count": 144,
+      "all_retained_cells_text_identical": true
+    },
+    "precision.csv": {
+      "row_count": 216,
+      "all_retained_cells_text_identical": true
+    },
+    "precision_limitations.csv": {
+      "row_count": 6,
+      "all_retained_cells_text_identical": true
+    },
+    "width_strata.csv": {
+      "row_count": 15,
+      "all_retained_cells_text_identical": true
+    },
+    "ni_consistency.csv": {
+      "row_count": 5,
+      "all_retained_cells_text_identical": true
+    },
+    "conditions.csv": {
+      "row_count": 19,
+      "all_retained_cells_text_identical": true
+    },
+    "methods.csv": {
+      "row_count": 5,
+      "all_retained_cells_text_identical": true
+    }
+  }
+}

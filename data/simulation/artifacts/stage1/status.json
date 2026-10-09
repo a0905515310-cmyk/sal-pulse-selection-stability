@@ -1,0 +1,15 @@
+{
+  "stage": 1,
+  "stage_name": "STATIC_CONTRACT",
+  "status": "PASS",
+  "blocking_issue_count": 0,
+  "nonblocking_warning_count": 1,
+  "science_contract_changed": false,
+  "pilot_executed": false,
+  "formal_executed": false,
+  "bootstrap_executed": false,
+  "paper_result_figures_generated": false,
+  "study_config_sha256": "e4ad227d9fe619b98a12208b957699a24d51ef5a6533fa6eabf790e9f171f72b",
+  "next_stage_executed": false,
+  "stop_after_stage1": true
+}

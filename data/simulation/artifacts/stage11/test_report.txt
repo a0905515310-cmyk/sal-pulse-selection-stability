@@ -1,0 +1,20 @@
+STAGE 11 TEST REPORT
+
+PRE-PACKAGE STAGE11 CONTRACT/EXPORT/EXECUTION TESTS
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage11_contract.py tests/test_stage11_export.py tests/test_stage11_execution.py
+result: 16 passed, 0 failed, 0 errors
+
+PACKAGED STAGE11 TESTS
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage11_contract.py tests/test_stage11_export.py tests/test_stage11_execution.py tests/test_stage11_storage.py
+result: 20 passed, 0 failed, 0 errors
+
+FULL HISTORICAL PYTEST RAW
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest
+result: 423 passed, 3 authorized legacy failures, 0 errors
+authorized failure nodes:
+- tests/test_stage10_contract.py::test_stage9_pass_and_stage1_through_stage9_zip_tree_identity
+- tests/test_stage8_decision.py::test_stage1_through_stage7_byte_identity_and_frozen_science_gate
+- tests/test_stage9_contract.py::test_stage8_identity_and_decision_boundary_are_independently_verified
+unexpected failure count: 0
+
+The final ZIP is re-created after this report is frozen and is then checked by a final unrecorded Stage11-only validation run to avoid mutating the tested package.

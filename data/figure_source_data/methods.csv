@@ -1,0 +1,6 @@
+MethodOrdinal,MethodCode,MethodNameZH
+0,FIRST,首脉冲准则
+1,LAST,末脉冲准则
+2,T,最优时序准则
+3,W,脉宽单特征准则
+4,TW,双特征联合准则

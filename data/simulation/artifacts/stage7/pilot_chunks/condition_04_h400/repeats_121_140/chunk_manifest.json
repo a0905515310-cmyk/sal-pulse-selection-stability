@@ -1,0 +1,19 @@
+{
+  "CodeSHA256": "b50c0a138e7d5b3a71a94ebcc4b0c3caec6567dfafe3bdfc071c4c50fcaeb7c7",
+  "CodeVersion": "0.7.0",
+  "Completed": true,
+  "ConditionCode": "H400",
+  "ConditionOrdinal": 4,
+  "DataSHA256": "86f91736a47ac6973557ea4eaaab2232539fb8021b3a182f73eecf8236d18386",
+  "Namespace": "PILOT",
+  "PilotR": 200,
+  "RepeatCount": 20,
+  "RepeatEnd": 140,
+  "RepeatMetricsSHA256": "51d82453416b13dba007738a0c9ab545c25ee079140ee3356b2896340960713b",
+  "RepeatStart": 121,
+  "RunKind": "PILOT",
+  "SchemaVersion": 1,
+  "StateSHA256": "c04151a41f3f290e27edfe638cbda77992db4105c5ff2e26137cfe109ff43c2d",
+  "StudyConfigSHA256": "4419f964beee079f67c83ed759b0b8295052d46a037e692c844a81337b232ecb",
+  "TrajectorySHA256": "9d28da5ba8a476201a3ab4ca2ce6413a9b4062dea7d42ad65375f0b18570ace8"
+}

@@ -1,0 +1,25 @@
+STAGE 9 CHANGED FILES
+
+ADDED STATIC FILES:
+- STAGE9_TASKBOOK.md
+- src/sal_stability_stage1/formal_storage.py
+- src/sal_stability_stage1/stage9.py
+- scripts/build_stage9.py
+- tests/test_stage9_contract.py
+- tests/test_stage9_storage.py
+- tests/test_stage9_execution.py
+
+ADDED ARTIFACT TREE:
+- artifacts/stage9/** | 3971 files at report generation
+
+MODIFIED FILES:
+- README.md | Stage 9 execution and STOP boundary documentation
+- pyproject.toml | Version 0.9.0; dependency set unchanged
+
+FROZEN STAGE 1-8 TREE:
+- Baseline member count: 1361
+- Baseline tree SHA256: fda6069467a58eac08b600522e94aae00f5314ee90fb165ad0f8ea6756197a96
+- Unexpected modified files: NONE
+- Deleted files: NONE
+
+SCIENCE CONTRACT CHANGED: NO

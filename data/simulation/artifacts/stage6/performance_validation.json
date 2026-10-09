@@ -1,0 +1,24 @@
+{
+  "CPUCount": 20,
+  "ConditionRepeatCount": 60,
+  "Environment": "Windows-11-10.0.26200-SP0",
+  "MethodCycles": 60000,
+  "NumPyVersion": "2.5.2",
+  "ParallelWallSeconds": 18.146526099999846,
+  "ProjectedPilotSecondsParallel": 1149.2799863333237,
+  "ProjectedPilotSecondsSerial": 2078.833984999992,
+  "PythonVersion": "3.12.10",
+  "SecondsPerConditionRepeatParallel": 0.30244210166666413,
+  "SecondsPerConditionRepeatSerial": 0.5470615749999979,
+  "SecondsPerMethodCycleParallel": 0.0003024421016666641,
+  "SecondsPerMethodCycleSerial": 0.0005470615749999979,
+  "SerialWallSeconds": 32.823694499999874,
+  "ValidationConditions": [
+    "H300",
+    "F2",
+    "HF300-2"
+  ],
+  "ValidationRepeatCount": 20,
+  "Workers": 2,
+  "projection_only": true
+}

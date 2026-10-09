@@ -1,0 +1,182 @@
+{
+  "BootstrapAuditIDs": [
+    1,
+    1000,
+    2000
+  ],
+  "BootstrapAuditIndexShape": [
+    18,
+    3,
+    2000
+  ],
+  "BootstrapB": 2000,
+  "BootstrapDrawCountPerReplicate": 2000,
+  "BootstrapNamespace": "BOOTSTRAP",
+  "BootstrapRNG": {
+    "AcceptanceLimit": 4294966000,
+    "Mapping": "If word < 4294966000, RepeatID = (word % 2000) + 1; otherwise increment Retry and regenerate.",
+    "MasterSeedIdentifier": "SAL_STABILITY_MASTER_SEED_V1",
+    "MethodMustNotEnterAddress": true,
+    "RandomAddress": {
+      "condition_ordinal": "ConditionOrdinal 1..18",
+      "event_index": "((DrawPosition-1) << 32) | Retry, DrawPosition=1..2000, Retry>=0",
+      "namespace": "BOOTSTRAP",
+      "repeat_id": "BootstrapID 1..2000",
+      "variable_family": "BOOTSTRAP_INDEX"
+    },
+    "RandomNamespaceEnum": 3,
+    "RawWord": "raw_words(address)[0]",
+    "UniformIndexMapping": "REJECTION_SAMPLING_UINT32_TO_2000",
+    "VariableFamily": "BOOTSTRAP_INDEX",
+    "VariableFamilyEnum": 13,
+    "VectorizedImplementationMustMatchScalarRawWordsBitwise": true
+  },
+  "ConfidenceInterval": {
+    "ConfidenceLevel": 0.95,
+    "DoNotUseBootstrapMeanAsPointEstimate": true,
+    "LowerQuantile": 0.025,
+    "PointEstimateSource": "STAGE9_FORMAL_RATIO_OF_SUMS",
+    "QuantileMethod": "linear",
+    "Type": "PERCENTILE_BOOTSTRAP",
+    "UpperQuantile": 0.975
+  },
+  "ContractName": "STAGE10_B2000_PAIRED_REPEAT_BOOTSTRAP",
+  "ContractVersion": 1,
+  "ContrastDirectionRule": "TW_MINUS_COMPARATOR_FOR_ALL_METRICS_NO_SIGN_FLIP",
+  "CoreMetrics": {
+    "Mean_L_NC": {
+      "Denominator": "N_run_NC",
+      "Numerator": "Sum_L_NC_obs"
+    },
+    "P_C_given_C": {
+      "Denominator": "N_Cdot",
+      "Numerator": "N_CC"
+    },
+    "P_C_given_E": {
+      "Denominator": "N_Edot",
+      "Numerator": "N_EC"
+    },
+    "P_cor": {
+      "Denominator": "200 per resampled Repeat",
+      "Numerator": "N_C"
+    }
+  },
+  "Execution": {
+    "BootstrapMayRerunFormalWorld": false,
+    "PersistentResumeUnit": "Condition",
+    "PhysicalSimulationMayBeCalled": false,
+    "VectorizationBlockSize": 50,
+    "VectorizationBlockSizeIsNotStatisticalUnit": true,
+    "Workers": 1
+  },
+  "ExpectedOutputs": {
+    "ConditionDistributionCount": 18,
+    "IndividualDistributionShape": [
+      18,
+      5,
+      4,
+      2000
+    ],
+    "IndividualSummaryRows": 360,
+    "PairedDistributionShape": [
+      18,
+      2,
+      4,
+      2000
+    ],
+    "PairedSummaryRows": 144,
+    "Stage8PrecisionAuditRows": 216
+  },
+  "Forbidden": {
+    "ConditionDropping": true,
+    "ModifyHistoricalTestsToMakeThemGreen": true,
+    "ModifyStage1ThroughStage9FrozenFiles": true,
+    "OutcomeDirectionPassRule": true,
+    "PValues": true,
+    "PaperConclusions": true,
+    "PaperFigures": true,
+    "ParameterChanges": true,
+    "PhysicalSimulation": true,
+    "PostFormalContrastAddition": true,
+    "Stage11Execution": true
+  },
+  "FormalAggregatedMetricsSHA256": "803856c4d776b53b63e7e6f8be4425ce96ddb05c49aaca97c049134b04644865",
+  "FormalH300WidthStrataSHA256": "4e70f33ba195070a75e35fc6b3d14b7d5d7851b4ca414fcac7e8f24046a108b4",
+  "FormalRepeatCountPerCondition": 2000,
+  "FormalRepeatMetricsSHA256": "e3084733adf9fa3f2325b0407b4358aeae118df8f6a152a4c1f5984757f3f8f6",
+  "IndependentUnit": "Repeat",
+  "IndividualMethodIntervals": [
+    "FIRST",
+    "LAST",
+    "T",
+    "W",
+    "TW"
+  ],
+  "InterferenceConditionOrdinals": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "LockedAfterStage9PASS": true,
+  "Methods": [
+    "FIRST",
+    "LAST",
+    "T",
+    "W",
+    "TW"
+  ],
+  "MetricEstimator": "RATIO_OF_RESAMPLED_SUMS",
+  "NIInference": "CONSISTENCY_ONLY_NO_BOOTSTRAP",
+  "PairedContrasts": [
+    {
+      "Code": "TW-T",
+      "Definition": "TW minus T",
+      "Role": "PRIMARY"
+    },
+    {
+      "Code": "TW-W",
+      "Definition": "TW minus W",
+      "Role": "SECONDARY_ABLATION"
+    }
+  ],
+  "Stage10PreFormalContractSHA256": "79fdae99716ea047d44171b332b2e2fc5bdeb311fa454b8092ba1f008c6b6b7a",
+  "Stage8LegacyRegressionZipName": "sal_stability_stage8_20260825.zip",
+  "Stage8LegacyRegressionZipSHA256": "a440cae9bbef5474bf30d8abc32078646bf76219910a6a37e31863065e233a3b",
+  "Stage8PrecisionContract": {
+    "ActualHalfWidthDefinition": "max(PointEstimate-CI95Lower, CI95Upper-PointEstimate)",
+    "ApplicableIndividualMethods": [
+      "T",
+      "TW"
+    ],
+    "ApplicablePairedContrast": "TW-T",
+    "FailureToMeetTargetDoesNotFailStage10": true,
+    "MeanLNC_TargetHalfWidth": 0.25,
+    "ProbabilityTargetHalfWidth": 0.02,
+    "ProjectedPrecisionWarningMustRemainTrue": true,
+    "TW-WNotGuaranteedByStage8PrecisionContract": true
+  },
+  "Stage9BaselineZipName": "sal_stability_stage9_20260825.zip",
+  "Stage9BaselineZipSHA256": "df1f4611d968e7911527592e32a7a24101c711e4306069f5dcaafebd745f2af5",
+  "StopAfterStage10": true,
+  "UndefinedReplicateRule": {
+    "AlwaysReportCounts": true,
+    "CI": "Use finite/defined replicate values only. If DefinedBootstrapCount < 2, CI is undefined with reason INSUFFICIENT_DEFINED_BOOTSTRAP_REPLICATES.",
+    "Individual": "If resampled total denominator is zero, store NaN/undefined; never store 0 and never redraw.",
+    "Paired": "A paired replicate is undefined if either TW or comparator metric is undefined on the same resampled Repeat indices."
+  }
+}

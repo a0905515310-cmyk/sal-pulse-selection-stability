@@ -1,0 +1,114 @@
+{
+  "all_pass": true,
+  "blocking_issues": [],
+  "checks": {
+    "box_muller_fixed_slots": true,
+    "chunk_invariance": true,
+    "condition_isolation": true,
+    "forbidden_random_api_scan": true,
+    "frozen_files_unchanged": true,
+    "golden_condition_boundaries": true,
+    "golden_count_at_least_20": true,
+    "golden_event_examples": true,
+    "golden_families_complete": true,
+    "golden_large_negative_h_index": true,
+    "golden_large_positive_h_index": true,
+    "golden_namespaces_complete": true,
+    "golden_repeat_examples": true,
+    "golden_vectors_verified": true,
+    "key_derivation_cached": true,
+    "key_excludes_counter_fields": true,
+    "legacy_scan": true,
+    "method_absent_from_rng_api": true,
+    "namespace_ids": true,
+    "namespace_isolation": true,
+    "negative_event_order_invariance": true,
+    "order_invariance": true,
+    "other_addresses_do_not_mutate_result": true,
+    "philox_official_known_answers": true,
+    "philox_round_count_10": true,
+    "random_address_fields": true,
+    "raw_words_uint32": true,
+    "repeat_calls_are_stateless": true,
+    "rng_spec_matches_config": true,
+    "science_contract_unchanged": true,
+    "serial_parallel_invariance": true,
+    "signed_event_index": true,
+    "signed_event_index_bounds": true,
+    "stage1_artifact_status": true,
+    "stage1_static_contract": true,
+    "tierank_128_layout": true,
+    "tierank_collision_stops": true,
+    "uniform_open_interval_and_formula": true,
+    "variable_family_ids": true,
+    "variable_family_isolation": true
+  },
+  "details": {
+    "event_minus_one_counter_words": [
+      "0xFFFFFFFF",
+      "0xFFFFFFFF"
+    ],
+    "forbidden_random_api_findings": [],
+    "frozen_file_checks": {
+      "artifacts/config/encoding_reference.csv": true,
+      "artifacts/config/encoding_reference.npz": true,
+      "src/sal_stability_stage1/contracts.py": true,
+      "src/sal_stability_stage1/encoding.py": true,
+      "tests/test_stage1.py": true
+    },
+    "golden_issues": [],
+    "key_cache_info": {
+      "currsize": 1,
+      "hits": 1,
+      "misses": 1
+    },
+    "legacy_findings": [],
+    "namespace_blocks": {
+      "BOOTSTRAP": [
+        "0x1211AE31",
+        "0xE742F8D5",
+        "0xD5E6CF0B",
+        "0xFFC18B5A"
+      ],
+      "FORMAL": [
+        "0x7936F77E",
+        "0x546375F6",
+        "0x8941A293",
+        "0xBD2B6487"
+      ],
+      "PILOT": [
+        "0xB9437A3E",
+        "0xA7B430A0",
+        "0xC82165D2",
+        "0x108F4B8C"
+      ]
+    },
+    "random_address_fields": [
+      "namespace",
+      "condition_ordinal",
+      "repeat_id",
+      "variable_family",
+      "event_index"
+    ],
+    "rng_api_parameters": {
+      "counter_words": [
+        "address"
+      ],
+      "random_normal": [
+        "address"
+      ],
+      "random_tierank": [
+        "address"
+      ],
+      "random_uniform": [
+        "address"
+      ],
+      "raw_words": [
+        "address"
+      ]
+    }
+  },
+  "golden_vector_count": 28,
+  "golden_vector_mode": "VERIFY_GOLDEN_VECTORS",
+  "study_config_sha256": "4419f964beee079f67c83ed759b0b8295052d46a037e692c844a81337b232ecb"
+}

@@ -1,0 +1,12 @@
+Stage 1 test report
+===================
+Python: 3.13.5
+NumPy: 2.3.5
+Platform: Linux-6.18.35-x86_64-with-glibc2.41
+
+pytest result: 8 passed
+Build static checks: 20/20 passed
+Encoded duration: 29.5308825000000041 s
+StudyConfig SHA256: e4ad227d9fe619b98a12208b957699a24d51ef5a6533fa6eabf790e9f171f72b
+
+No Pilot, Formal simulation, Bootstrap, or paper result generation was executed.

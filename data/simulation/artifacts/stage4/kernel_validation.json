@@ -1,0 +1,108 @@
+{
+  "all_pass": true,
+  "blocking_issues": [],
+  "checks": {
+    "condition_count_19": true,
+    "cycle_count_200": true,
+    "delta_t_consumed_199": true,
+    "forbidden_random_api_scan": true,
+    "forbidden_result_directories_absent": true,
+    "half_open_gate": true,
+    "hprf_composite_no_n": true,
+    "hprf_per_cycle_count": true,
+    "hprf_uses_stage3_resolver": true,
+    "method_state_initialization": true,
+    "method_state_minimal": true,
+    "n_continuation": true,
+    "ni_trajectory_identity": true,
+    "observed_toa_not_regated": true,
+    "physical_namespace_isolation": true,
+    "reference_toa_divergence": true,
+    "reference_update_source_blind": true,
+    "retired_identifier_scan": true,
+    "selection_reference_update": true,
+    "source_state_mapping": true,
+    "source_state_schema": true,
+    "stage3_input_K_200": true,
+    "stage3_input_condition_count_19": true,
+    "stage3_input_encoded_duration": true,
+    "stage3_input_encoding_reference_exact": true,
+    "stage3_input_interval_count_199": true,
+    "stage3_input_method_count_5": true,
+    "stage3_input_reference_keys_exact": true,
+    "stage3_input_study_config_exact": true,
+    "stage5_identifier_scan": true,
+    "true_toa_gate_membership": true,
+    "validation_repeat_count": true
+  },
+  "details": {
+    "delta_t_consumed_per_trajectory": 199,
+    "forbidden_random_api_findings": [],
+    "forbidden_result_directories": [],
+    "frozen_file_checks": {
+      "artifacts/config/encoding_reference.csv": true,
+      "artifacts/config/encoding_reference.npz": true,
+      "src/sal_stability_stage1/contracts.py": true,
+      "src/sal_stability_stage1/encoding.py": true,
+      "src/sal_stability_stage1/events.py": true,
+      "src/sal_stability_stage1/hprf.py": true,
+      "src/sal_stability_stage1/rng.py": true,
+      "src/sal_stability_stage1/stage3.py": true,
+      "tests/test_stage1.py": true,
+      "tests/test_stage2_rng.py": true,
+      "tests/test_stage3_events.py": true
+    },
+    "hprf_composite_n_violations": 0,
+    "hprf_count_checks": 42000,
+    "hprf_no_n_checks": 42000,
+    "ni_identity_checks": 3,
+    "prior_stage_checks": {
+      "stage1_artifact_pass": true,
+      "stage2_artifact_pass": true,
+      "stage3_artifact_pass": true
+    },
+    "retired_identifier_findings": [],
+    "stage5_identifier_findings": [],
+    "state_arrays_saved": false,
+    "study_config_hash_ok": true,
+    "total_method_cycles": 57000,
+    "total_validation_condition_repeats": 57,
+    "validation_condition_count": 19,
+    "validation_repeat_ids": [
+      1,
+      2,
+      17
+    ]
+  },
+  "selector_validation": {
+    "all_pass": true,
+    "checks": {
+      "candidate_view_arrays_read_only": true,
+      "candidate_view_fields_exact": true,
+      "exact_tie_minimum_tierank": true,
+      "near_tie_primary_wins": true,
+      "no_approximate_tie_call": true,
+      "selector_first": true,
+      "selector_last": true,
+      "selector_permutation_invariance": true,
+      "selector_signatures_source_blind": true,
+      "selector_t": true,
+      "selector_tw": true,
+      "selector_tw_score_exact": true,
+      "selector_w": true,
+      "selectors_return_selected_pos": true,
+      "source_permutation_invariance": true,
+      "tierank_collision_stop": true
+    },
+    "details": {
+      "candidate_view_fields": [
+        "observed_toa_s",
+        "observed_width_s",
+        "tie_rank_hi",
+        "tie_rank_lo"
+      ],
+      "selector_property_check_count": 640,
+      "source_metadata_permutations_checked": 3
+    }
+  }
+}

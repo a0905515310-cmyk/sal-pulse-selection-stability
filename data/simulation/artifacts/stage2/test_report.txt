@@ -1,0 +1,40 @@
+SAL stability Stage 2 test report
+Python version: 3.12.10
+Python executable: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe
+NumPy version: 2.5.2
+pytest version: 9.1.1
+pytest command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest
+test count: 60
+passed count: 60
+failed count: 0
+duration: 4.535395 s
+
+[stage1]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage1.py
+return code: 0
+passed: 8
+failed: 0
+duration: 3.737219 s
+output:
+........                                                                 [100%]
+8 passed in 3.07s
+
+[stage2]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage2_rng.py
+return code: 0
+passed: 52
+failed: 0
+duration: 2.024071 s
+output:
+....................................................                     [100%]
+52 passed in 1.34s
+
+[all]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest
+return code: 0
+passed: 60
+failed: 0
+duration: 4.535395 s
+output:
+............................................................             [100%]
+60 passed in 3.89s

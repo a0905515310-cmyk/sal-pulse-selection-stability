@@ -1,0 +1,30 @@
+{
+  "AllFrozenSourceSHA256Verified": true,
+  "BaselineMemberCount": 5401,
+  "BaselineTreeSHA256": "0b9cd18dda5c8bb3dcc8e5ca4a752329bd0fd8599145ba70960d448aa3868f3d",
+  "FrozenSourceSHA256": {
+    "Stage10BootstrapAuditIndicesSHA256": "ff21b44d5d6bf638cbde0f881e9e0bca6a8778b4cf154b125d8511e2ec873b07",
+    "Stage10BootstrapDistributionsSHA256": "370e11118c828c092a0c86037488025555578e2040364d776940887a8b2c8cad",
+    "Stage10BootstrapManifestSHA256": "69748b6f37e3caf5d3abb561042ca190c8f0068d2217b44b14cb770faa50b71d",
+    "Stage10IndividualSummarySHA256": "ad9bca843ff063d1a9cc26d134f8fc43b3cdeb9460f850e9e5afbda6c0d5f0b1",
+    "Stage10NIConsistencySHA256": "3fcc11e13a40b7ae177643c71c7287878c33fb43a124d8d8604c96288f9d19bc",
+    "Stage10PairedSummarySHA256": "2e864379ff8985fce28cfc7fd9d71f29ca5ec593fd7340dfeaf586684d7e58fe",
+    "Stage10PrecisionAuditSHA256": "361e5b017cb078545c032a17f98104887ae46703a1a921d6cf8689e3ae9988e4",
+    "Stage10ScienceContractSHA256": "fdaa84d99e3b9e8fbcebe091c7a173a90ba5a42cef054f48c79eca01179656fd",
+    "Stage10StatusSHA256": "91cb29d8c06aeabfed7b8dbfe3a46f26ee236533e12a045753b4cee24a57ecf6",
+    "Stage9FormalAggregatedMetricsSHA256": "803856c4d776b53b63e7e6f8be4425ce96ddb05c49aaca97c049134b04644865",
+    "Stage9FormalRepeatMetricsSHA256": "e3084733adf9fa3f2325b0407b4358aeae118df8f6a152a4c1f5984757f3f8f6",
+    "Stage9H300WidthStrataSHA256": "4e70f33ba195070a75e35fc6b3d14b7d5d7851b4ca414fcac7e8f24046a108b4"
+  },
+  "IdentitySchema": "STAGE11_SOURCE_IDENTITY_V1",
+  "InferenceSourcesRecomputed": false,
+  "ReadBoundary": "READ_ONLY_DETERMINISTIC_EXPORT",
+  "Stage": 11,
+  "Stage10BaselineZipName": "sal_stability_stage10_20260825.zip",
+  "Stage10BaselineZipSHA256": "fb3666b9a9cd74d2a52978df98b2e4f08b7ddcb11bff0134bbdaed6cc09fb389",
+  "Stage10BaselineZipSHA256Verified": true,
+  "Stage10StatusPASSVerified": true,
+  "Stage11ScienceContractSHA256": "9fc2141695a6e73697bbee2e7590eb54678be5ca094ae06e753a36a38f3282a1",
+  "Stage11ScienceContractSHA256Verified": true,
+  "Stage1ThroughStage10TreeUnchanged": true
+}

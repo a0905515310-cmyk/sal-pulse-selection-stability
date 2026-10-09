@@ -1,0 +1,28 @@
+{
+  "all_pass": true,
+  "checks": {
+    "K_200": true,
+    "condition_codes_unique": true,
+    "condition_count_19": true,
+    "condition_ordinals": true,
+    "delta_t_count_199": true,
+    "encoded_duration": true,
+    "gate_width_identity": true,
+    "interval_dtype": true,
+    "interval_levels_range": true,
+    "lfsr_full_period": true,
+    "method_codes": true,
+    "method_count_5": true,
+    "method_ordinals": true,
+    "namespace_count_3": true,
+    "ref_width_count_200": true,
+    "retired_identifier_scan": true,
+    "state_dtype": true,
+    "state_shape": true,
+    "width_dtype": true,
+    "width_levels_range": true
+  },
+  "encoded_duration_s": 29.530882500000004,
+  "retired_identifier_findings": [],
+  "study_config_sha256": "e4ad227d9fe619b98a12208b957699a24d51ef5a6533fa6eabf790e9f171f72b"
+}

@@ -1,0 +1,62 @@
+ADDED
+src/sal_stability_stage1/diagnostics.py
+src/sal_stability_stage1/execution.py
+src/sal_stability_stage1/storage.py
+src/sal_stability_stage1/stage6.py
+scripts/build_stage6.py
+tests/test_stage6_execution.py
+tests/test_stage6_reproducibility.py
+tests/test_stage6_storage_resume.py
+tests/test_stage6_diagnostics.py
+artifacts/stage6/baseline_oracle_manifest.json
+artifacts/stage6/baseline_oracle/c03_h300_r10001_h300_width_strata.csv
+artifacts/stage6/baseline_oracle/c03_h300_r10001_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c03_h300_r10001_trajectory.npz
+artifacts/stage6/baseline_oracle/c03_h300_r10002_h300_width_strata.csv
+artifacts/stage6/baseline_oracle/c03_h300_r10002_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c03_h300_r10002_trajectory.npz
+artifacts/stage6/baseline_oracle/c03_h300_r10003_h300_width_strata.csv
+artifacts/stage6/baseline_oracle/c03_h300_r10003_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c03_h300_r10003_trajectory.npz
+artifacts/stage6/baseline_oracle/c07_f2_r10001_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c07_f2_r10001_trajectory.npz
+artifacts/stage6/baseline_oracle/c07_f2_r10002_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c07_f2_r10002_trajectory.npz
+artifacts/stage6/baseline_oracle/c07_f2_r10003_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c07_f2_r10003_trajectory.npz
+artifacts/stage6/baseline_oracle/c14_hf300-2_r10001_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c14_hf300-2_r10001_trajectory.npz
+artifacts/stage6/baseline_oracle/c14_hf300-2_r10002_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c14_hf300-2_r10002_trajectory.npz
+artifacts/stage6/baseline_oracle/c14_hf300-2_r10003_repeat_metrics.csv
+artifacts/stage6/baseline_oracle/c14_hf300-2_r10003_trajectory.npz
+artifacts/stage6/reproducibility_validation.json
+artifacts/stage6/performance_validation.json
+artifacts/stage6/status.json
+artifacts/stage6/validation_report.md
+artifacts/stage6/changed_files.txt
+artifacts/stage6/test_report.txt
+artifacts/stage6/execution_validation/
+artifacts/stage6/resume_validation/
+
+MODIFIED
+src/sal_stability_stage1/kernel.py — EXECUTION-CONTROL REFACTOR ONLY; Stage5 oracle exact match
+  Stage5 SHA256: 4cb93adca63d6abeff3f5dce79409f413982cce055542d4136da1a7c82fcaf83
+  Stage6 SHA256: 80bec3cde701c98491950dc40e6fd06def09c676a20c2ec28d1b884290be0e95
+README.md
+pyproject.toml — version only 0.5.0 -> 0.6.0
+
+UNCHANGED
+artifacts/config/study_config.json
+artifacts/config/encoding_reference.csv
+artifacts/config/encoding_reference.npz
+artifacts/config/rng_test_vectors.csv
+src/sal_stability_stage1/contracts.py
+src/sal_stability_stage1/encoding.py
+src/sal_stability_stage1/events.py
+src/sal_stability_stage1/hprf.py
+src/sal_stability_stage1/rng.py
+src/sal_stability_stage1/selectors.py
+src/sal_stability_stage1/metrics.py
+src/sal_stability_stage1/stage5.py
+All Stage1-5 tests and artifacts

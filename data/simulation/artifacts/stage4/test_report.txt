@@ -1,0 +1,76 @@
+SAL stability Stage 4 test report
+Python version: 3.12.10
+Python executable: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe
+NumPy version: 2.5.2
+pytest version: 9.1.1
+baseline Stage1+2+3 test count: 147
+Stage4 selector test count: 35
+Stage4 kernel test count: 37
+total tests: 219
+passed tests: 219
+failed tests: 0
+build_stage4 result: PASS
+
+[stage1]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage1.py
+return code: 0
+passed: 8
+failed: 0
+duration: 3.827068 s
+output:
+........                                                                 [100%]
+8 passed in 3.20s
+
+[stage2]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage2_rng.py
+return code: 0
+passed: 52
+failed: 0
+duration: 1.950662 s
+output:
+....................................................                     [100%]
+52 passed in 1.30s
+
+[stage3]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage3_events.py
+return code: 0
+passed: 87
+failed: 0
+duration: 5.658713 s
+output:
+........................................................................ [ 82%]
+...............                                                          [100%]
+87 passed in 4.99s
+
+[stage4_selectors]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage4_selectors.py
+return code: 0
+passed: 35
+failed: 0
+duration: 1.492826 s
+output:
+...................................                                      [100%]
+35 passed in 0.74s
+
+[stage4_kernel]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest tests/test_stage4_kernel.py
+return code: 0
+passed: 37
+failed: 0
+duration: 13.035172 s
+output:
+.....................................                                    [100%]
+37 passed in 12.30s
+
+[all]
+command: E:\SCISCI\.venv-sal-stage2-20260822\Scripts\python.exe -m pytest
+return code: 0
+passed: 219
+failed: 0
+duration: 22.219330 s
+output:
+........................................................................ [ 32%]
+........................................................................ [ 65%]
+........................................................................ [ 98%]
+...                                                                      [100%]
+219 passed in 21.52s

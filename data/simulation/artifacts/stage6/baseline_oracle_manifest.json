@@ -1,0 +1,54 @@
+{
+  "ConditionRepeatCount": 9,
+  "Conditions": [
+    {
+      "ConditionCode": "H300",
+      "ConditionOrdinal": 3
+    },
+    {
+      "ConditionCode": "F2",
+      "ConditionOrdinal": 7
+    },
+    {
+      "ConditionCode": "HF300-2",
+      "ConditionOrdinal": 14
+    }
+  ],
+  "CreatedAsValidationOnly": true,
+  "Files": {
+    "artifacts/stage6/baseline_oracle/c03_h300_r10001_h300_width_strata.csv": "a640e9dccccc90a64b373b794467fbf0c16a23ddff13671dff511f298dfa99f0",
+    "artifacts/stage6/baseline_oracle/c03_h300_r10001_repeat_metrics.csv": "ae831278dbd00d4802f7ef88fb1e09395cb6b190660ee1cb7ac307b8a6365d18",
+    "artifacts/stage6/baseline_oracle/c03_h300_r10001_trajectory.npz": "2f4a3d48cfa23bf138490942ca41bf49278534b0074c1f2264148ea436475d68",
+    "artifacts/stage6/baseline_oracle/c03_h300_r10002_h300_width_strata.csv": "c53137209a9f4db55195365153b6bedaf97efdd61bd367739d6f3ab018dad0e6",
+    "artifacts/stage6/baseline_oracle/c03_h300_r10002_repeat_metrics.csv": "77e074d5d7f83cc882b06d1e0ba244932eba3742c78882796b01bc9b6c4e579d",
+    "artifacts/stage6/baseline_oracle/c03_h300_r10002_trajectory.npz": "95f208a15829ce8e0ae8502afcc0a2b169ba9e2d1739e24e27b733dd014b793f",
+    "artifacts/stage6/baseline_oracle/c03_h300_r10003_h300_width_strata.csv": "ce51e52da4b1c6d80c9817160248450c7820defe2e3cfc23bc25405c2c16f9f5",
+    "artifacts/stage6/baseline_oracle/c03_h300_r10003_repeat_metrics.csv": "323674e88c0593c82e4289030abd170ca00ca5e4c52ac29aecbbab4c3fff8cbd",
+    "artifacts/stage6/baseline_oracle/c03_h300_r10003_trajectory.npz": "5746b080759dc69e476dbf3bf45152ec436e6ccc9992a62374bc7f4dbc383c5a",
+    "artifacts/stage6/baseline_oracle/c07_f2_r10001_repeat_metrics.csv": "5ce90840324d7d753f4675c2e3c6040c561bfb48919cbaf43873c2243961d61e",
+    "artifacts/stage6/baseline_oracle/c07_f2_r10001_trajectory.npz": "17e8842965aabaf73b447059fd9dc963163a371c90cb63ba7385f8a99c67cb30",
+    "artifacts/stage6/baseline_oracle/c07_f2_r10002_repeat_metrics.csv": "67b6cad79b2ea58e5f1e774e03ceb9dabda043e3c1a78f47051930d0adaa1606",
+    "artifacts/stage6/baseline_oracle/c07_f2_r10002_trajectory.npz": "2875561d535d71c0cde8fa443b56b55cbf6d1c0379650b98ca2d0b696ddb23bb",
+    "artifacts/stage6/baseline_oracle/c07_f2_r10003_repeat_metrics.csv": "6373af1aaea57edda23df23f2ce5f8f558af1da4d80883c3244694dde9bd1a9b",
+    "artifacts/stage6/baseline_oracle/c07_f2_r10003_trajectory.npz": "d51def3cda95b0b879de12c6959b8baa83b90b79bd6a6d474fe2e1f29ef22eb0",
+    "artifacts/stage6/baseline_oracle/c14_hf300-2_r10001_repeat_metrics.csv": "f4d8ed097b55e9f1bd6aeb7836951ee7e046a3bb34d978320d033d321aad4eba",
+    "artifacts/stage6/baseline_oracle/c14_hf300-2_r10001_trajectory.npz": "2a3c3a1e5f6e466ae175cfe642342e92e2c234d23905279e68d36d5bb9ff9811",
+    "artifacts/stage6/baseline_oracle/c14_hf300-2_r10002_repeat_metrics.csv": "44cf0bddeb8439734fb87bd0d5b45fe0b9011aa7fbdd829c64b38e4228f3989b",
+    "artifacts/stage6/baseline_oracle/c14_hf300-2_r10002_trajectory.npz": "2d547cc2c4232c568776ba2d30f7c5c6c84d95125148d0ebcbbe97820b9c9a19",
+    "artifacts/stage6/baseline_oracle/c14_hf300-2_r10003_repeat_metrics.csv": "efbcd8a7b29d6bc59898923e6e7d8d50fd63f2c370bf4f12a8d3a3f0bc6bd9f9",
+    "artifacts/stage6/baseline_oracle/c14_hf300-2_r10003_trajectory.npz": "1608e2e734db496ece818a91e7deca33a2ccbb4fe1db1170e69896083c738eb3"
+  },
+  "GeneratedBeforeStage6KernelRefactor": true,
+  "KernelSHA256": "4cb93adca63d6abeff3f5dce79409f413982cce055542d4136da1a7c82fcaf83",
+  "MetricsSHA256": "a4afd0f90c9d0d3dca08ac9b21310aaef5ac81c9aa669f449e013661a30b7a4e",
+  "Namespace": "PILOT",
+  "OracleMode": "VERIFY",
+  "PilotR": null,
+  "RepeatIDs": [
+    10001,
+    10002,
+    10003
+  ],
+  "Stage5ZipSHA256": "c50ff295d4eca7f901228b062d295137d18b973f441302911f57a118742701bb",
+  "StudyConfigSHA256": "4419f964beee079f67c83ed759b0b8295052d46a037e692c844a81337b232ecb"
+}

@@ -1,0 +1,53 @@
+{
+  "frozen_files_verified": 23,
+  "datasets": {
+    "individual.csv": {
+      "rows": 360,
+      "source_sha256": "2585140d4ef89eb04d390c591da9af94806012f5d849481a57a0a1331e265610",
+      "sha256": "ff0ff4c4968c25b38e6b5702e10f773068ff4d294e1c1c62811753bc41a37a8d",
+      "numeric_serialization": "copied verbatim as CSV strings; provenance columns removed"
+    },
+    "paired.csv": {
+      "rows": 144,
+      "source_sha256": "28e6245ac0571edae335241a2a13292a20f005fe7c53af898fa316dd4e1e632b",
+      "sha256": "20d7e28f4aa195e999adbf8ef97361ce83bfc6cef5d08d98be5c0764ce261ddf",
+      "numeric_serialization": "copied verbatim as CSV strings; provenance columns removed"
+    },
+    "precision.csv": {
+      "rows": 216,
+      "source_sha256": "6d78b2544414257468c7ebd02a3bb1a9f514d1f4589a7158221f2887333dd17e",
+      "sha256": "361e5b017cb078545c032a17f98104887ae46703a1a921d6cf8689e3ae9988e4",
+      "numeric_serialization": "copied verbatim as CSV strings; provenance columns removed"
+    },
+    "precision_limitations.csv": {
+      "rows": 6,
+      "source_sha256": "1c7ad01a3531aebc568118ec3bb1aa89bf0a07ebf0fb9b2f4000f912acaccc2c",
+      "sha256": "4ced03b041af36343b84e572f39b8a4e4534059a42326abed438d3ac06edd27d",
+      "numeric_serialization": "copied verbatim as CSV strings; provenance columns removed"
+    },
+    "width_strata.csv": {
+      "rows": 15,
+      "source_sha256": "b0b8417c19dc634d38536bfad028cfd7f493ae428abbd0fb6a6b0824cc8df879",
+      "sha256": "1ed70adf0135dd70627d4fb59e14a60d59a5e95d6525d7faa1cc906405c2fe0f",
+      "numeric_serialization": "copied verbatim as CSV strings; provenance columns removed"
+    },
+    "ni_consistency.csv": {
+      "rows": 5,
+      "source_sha256": "2ded0d7c8fabd8de37fe105e8de31880c378aeb8a34a03a9fb6dc6f28c82ce0e",
+      "sha256": "a0c6810737457827fa18ff4e6dbdabb6b58cac138e6cbf29df745a757b82748f",
+      "numeric_serialization": "copied verbatim as CSV strings; provenance columns removed"
+    },
+    "conditions.csv": {
+      "rows": 19,
+      "source_sha256": "2c209a47e67400b0df8a27ebc2d689e3c09364fe5a327f1ffec850248d0b9463",
+      "sha256": "1ae55a62f17edbc14b3e04ce0659d5dbb0c2bf9f13bccf9cd157fcea5809b316",
+      "numeric_serialization": "copied verbatim as CSV strings; provenance columns removed"
+    },
+    "methods.csv": {
+      "rows": 5,
+      "source_sha256": "49c599c4384232fefa72bc5ea1ddba23bdc50228609ecb4e5c8bd61f7788a3ed",
+      "sha256": "65a846c2ed0ca21812920c7291257874f5c03da2d70299a918868fe12279d292",
+      "numeric_serialization": "copied verbatim as CSV strings; provenance columns removed"
+    }
+  }
+}

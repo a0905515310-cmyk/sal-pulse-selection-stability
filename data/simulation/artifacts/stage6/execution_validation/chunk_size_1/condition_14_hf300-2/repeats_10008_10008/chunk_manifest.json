@@ -1,0 +1,19 @@
+{
+  "CodeSHA256": "19a37cb653097fca01c21710d950f4a18f38ca4cad04d23900bc24a2db12c3c9",
+  "CodeVersion": "0.6.0",
+  "Completed": true,
+  "ConditionCode": "HF300-2",
+  "ConditionOrdinal": 14,
+  "DataSHA256": "2753eb68beede331531e815fc171edbc81bdddad4c5e75226c22c0fc16c6b2b7",
+  "FormalR_or_PilotR": null,
+  "Namespace": "PILOT",
+  "RepeatCount": 1,
+  "RepeatEnd": 10008,
+  "RepeatMetricsSHA256": "8f11a71d5c1b8e8aac40a95158fa297dfbf6280d6b49bc84fe686ab118a6e78c",
+  "RepeatStart": 10008,
+  "RunKind": "VALIDATION",
+  "StateSHA256": "fc5cad725457786a7c208abfa1481f349f6b9e07958ee0bed57eb94e58133d29",
+  "StudyConfigSHA256": "4419f964beee079f67c83ed759b0b8295052d46a037e692c844a81337b232ecb",
+  "TrajectorySHA256": "5e59d632761b2c6941ce6347469079f208383a2761615808439b73e1fced8cf3",
+  "ValidationRepeatCount": 20
+}

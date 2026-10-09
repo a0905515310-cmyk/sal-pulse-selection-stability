@@ -1,0 +1,234 @@
+{
+  "BootstrapB": 2000,
+  "CandidateFormalR": [
+    1000,
+    2000
+  ],
+  "ConditionSpecs": [
+    {
+      "Code": "NI",
+      "ConditionOrdinal": 0,
+      "FDelay_s": null,
+      "HPRF_Hz": null,
+      "Scene": "NI"
+    },
+    {
+      "Code": "H100",
+      "ConditionOrdinal": 1,
+      "FDelay_s": null,
+      "HPRF_Hz": 100000.0,
+      "Scene": "HPRF"
+    },
+    {
+      "Code": "H200",
+      "ConditionOrdinal": 2,
+      "FDelay_s": null,
+      "HPRF_Hz": 200000.0,
+      "Scene": "HPRF"
+    },
+    {
+      "Code": "H300",
+      "ConditionOrdinal": 3,
+      "FDelay_s": null,
+      "HPRF_Hz": 300000.0,
+      "Scene": "HPRF"
+    },
+    {
+      "Code": "H400",
+      "ConditionOrdinal": 4,
+      "FDelay_s": null,
+      "HPRF_Hz": 400000.0,
+      "Scene": "HPRF"
+    },
+    {
+      "Code": "H500",
+      "ConditionOrdinal": 5,
+      "FDelay_s": null,
+      "HPRF_Hz": 500000.0,
+      "Scene": "HPRF"
+    },
+    {
+      "Code": "F1",
+      "ConditionOrdinal": 6,
+      "FDelay_s": 1e-06,
+      "HPRF_Hz": null,
+      "Scene": "IDF"
+    },
+    {
+      "Code": "F2",
+      "ConditionOrdinal": 7,
+      "FDelay_s": 2e-06,
+      "HPRF_Hz": null,
+      "Scene": "IDF"
+    },
+    {
+      "Code": "F3",
+      "ConditionOrdinal": 8,
+      "FDelay_s": 3e-06,
+      "HPRF_Hz": null,
+      "Scene": "IDF"
+    },
+    {
+      "Code": "F4",
+      "ConditionOrdinal": 9,
+      "FDelay_s": 4e-06,
+      "HPRF_Hz": null,
+      "Scene": "IDF"
+    },
+    {
+      "Code": "HF200-1",
+      "ConditionOrdinal": 10,
+      "FDelay_s": 1e-06,
+      "HPRF_Hz": 200000.0,
+      "Scene": "COMPOSITE"
+    },
+    {
+      "Code": "HF200-2",
+      "ConditionOrdinal": 11,
+      "FDelay_s": 2e-06,
+      "HPRF_Hz": 200000.0,
+      "Scene": "COMPOSITE"
+    },
+    {
+      "Code": "HF200-3",
+      "ConditionOrdinal": 12,
+      "FDelay_s": 3e-06,
+      "HPRF_Hz": 200000.0,
+      "Scene": "COMPOSITE"
+    },
+    {
+      "Code": "HF300-1",
+      "ConditionOrdinal": 13,
+      "FDelay_s": 1e-06,
+      "HPRF_Hz": 300000.0,
+      "Scene": "COMPOSITE"
+    },
+    {
+      "Code": "HF300-2",
+      "ConditionOrdinal": 14,
+      "FDelay_s": 2e-06,
+      "HPRF_Hz": 300000.0,
+      "Scene": "COMPOSITE"
+    },
+    {
+      "Code": "HF300-3",
+      "ConditionOrdinal": 15,
+      "FDelay_s": 3e-06,
+      "HPRF_Hz": 300000.0,
+      "Scene": "COMPOSITE"
+    },
+    {
+      "Code": "HF500-1",
+      "ConditionOrdinal": 16,
+      "FDelay_s": 1e-06,
+      "HPRF_Hz": 500000.0,
+      "Scene": "COMPOSITE"
+    },
+    {
+      "Code": "HF500-2",
+      "ConditionOrdinal": 17,
+      "FDelay_s": 2e-06,
+      "HPRF_Hz": 500000.0,
+      "Scene": "COMPOSITE"
+    },
+    {
+      "Code": "HF500-3",
+      "ConditionOrdinal": 18,
+      "FDelay_s": 3e-06,
+      "HPRF_Hz": 500000.0,
+      "Scene": "COMPOSITE"
+    }
+  ],
+  "DTypes": {
+    "cycle_index": "int64",
+    "frequency_hz": "float64",
+    "hprf_pulse_index": "int64",
+    "interval_level": "uint16",
+    "lfsr_state_bit": "uint8",
+    "lfsr_state_integer": "uint16",
+    "source_state_code": "uint8",
+    "time_s": "float64",
+    "width_level": "uint8"
+  },
+  "DataSchemaVersion": "SAL_STABILITY_SCHEMA_V1",
+  "DiagnosticConditionCodes": [],
+  "DiagnosticRepeatIDs": [],
+  "EffectiveIntervalCount": 199,
+  "ExpectedEncodedDuration_s": 29.5308825,
+  "GateFullWidth_s": 1e-05,
+  "GateHalfWidth_s": 5e-06,
+  "K": 200,
+  "MethodSpecs": [
+    {
+      "Code": "FIRST",
+      "MethodOrdinal": 0,
+      "Name": "首脉冲准则"
+    },
+    {
+      "Code": "LAST",
+      "MethodOrdinal": 1,
+      "Name": "末脉冲准则"
+    },
+    {
+      "Code": "T",
+      "MethodOrdinal": 2,
+      "Name": "最优时序准则"
+    },
+    {
+      "Code": "W",
+      "MethodOrdinal": 3,
+      "Name": "脉宽单特征准则"
+    },
+    {
+      "Code": "TW",
+      "MethodOrdinal": 4,
+      "Name": "双特征联合准则"
+    }
+  ],
+  "PilotR": 200,
+  "RNGSpec": {
+    "Algorithm": "Philox-4x32-10",
+    "CounterLayout": [
+      "ConditionOrdinal_u32",
+      "RepeatID_u32",
+      "EventIndex_low32_twos_complement",
+      "EventIndex_high32_twos_complement"
+    ],
+    "MasterSeedIdentifier": "SAL_STABILITY_MASTER_SEED_V1",
+    "MasterSeedSHA256": "da7aa37fe1058887dd108bb419c38ba3be40922b088a3586002b1483316bdee4",
+    "NamespaceIDs": {
+      "BOOTSTRAP": 3,
+      "FORMAL": 2,
+      "PILOT": 1
+    },
+    "NormalTransform": "BoxMullerCos_word0_word1",
+    "Rounds": 10,
+    "TieRankLayout": "w0w1_hi64_w2w3_lo64",
+    "UniformTransform": "(x+0.5)/2^32",
+    "VariableFamilyIDs": {
+      "BOOTSTRAP_INDEX": 13,
+      "F_TOA_ERROR": 8,
+      "F_WIDTH_ERROR": 9,
+      "G_TOA_ERROR": 2,
+      "G_WIDTH_ERROR": 3,
+      "H_PHASE": 4,
+      "H_TOA_ERROR": 6,
+      "H_TRUE_WIDTH_LEVEL": 5,
+      "H_WIDTH_ERROR": 7,
+      "INITIAL_SYNC": 1,
+      "TIE_F": 12,
+      "TIE_G": 10,
+      "TIE_H": 11
+    }
+  },
+  "RandomNamespaces": [
+    "PILOT",
+    "FORMAL",
+    "BOOTSTRAP"
+  ],
+  "SigmaSync_s": 1e-06,
+  "SigmaTOA_s": 1e-06,
+  "SigmaWidth_s": 1.5e-09,
+  "StudyConfigVersion": "SAL_STABILITY_19C5M_V1",
+  "Xi": 0.0
+}

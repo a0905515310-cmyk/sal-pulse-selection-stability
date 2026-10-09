@@ -1,0 +1,174 @@
+{
+  "backend": "Python",
+  "numeric_data_unchanged": true,
+  "individual_rows": 360,
+  "paired_rows": 144,
+  "precision_rows": 216,
+  "precision_targets_missed": 6,
+  "figures": [
+    {
+      "figure": "fig01_hprf",
+      "svg_editable_text_nodes": 65,
+      "pdf_text_extractable": true,
+      "pdf_font_types": [
+        "Type0"
+      ],
+      "width_mm": 183.0,
+      "tiff_pixels": [
+        4322,
+        3259
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "figure": "fig02_f_only",
+      "svg_editable_text_nodes": 61,
+      "pdf_text_extractable": true,
+      "pdf_font_types": [
+        "Type0"
+      ],
+      "width_mm": 183.0,
+      "tiff_pixels": [
+        4322,
+        3259
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "figure": "fig03_composite",
+      "svg_editable_text_nodes": 88,
+      "pdf_text_extractable": true,
+      "pdf_font_types": [
+        "Type0"
+      ],
+      "width_mm": 183.0,
+      "tiff_pixels": [
+        4322,
+        4842
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "figure": "fig04_tw_minus_t",
+      "svg_editable_text_nodes": 81,
+      "pdf_text_extractable": true,
+      "pdf_font_types": [
+        "Type0"
+      ],
+      "width_mm": 183.0,
+      "tiff_pixels": [
+        4322,
+        4464
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "figure": "fig05_tw_minus_w",
+      "svg_editable_text_nodes": 55,
+      "pdf_text_extractable": true,
+      "pdf_font_types": [
+        "Type0"
+      ],
+      "width_mm": 183.0,
+      "tiff_pixels": [
+        4322,
+        3425
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "figure": "fig06_width_strata",
+      "svg_editable_text_nodes": 35,
+      "pdf_text_extractable": true,
+      "pdf_font_types": [
+        "Type0"
+      ],
+      "width_mm": 183.0,
+      "tiff_pixels": [
+        4322,
+        2551
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "figure": "figS01_precision",
+      "svg_editable_text_nodes": 257,
+      "pdf_text_extractable": true,
+      "pdf_font_types": [
+        "Type0"
+      ],
+      "width_mm": 183.0,
+      "tiff_pixels": [
+        4322,
+        3637
+      ],
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "figure": "fig01_hprf",
+      "text_outside_canvas": [],
+      "width_mm": 183.0,
+      "height_mm": 138.0
+    },
+    {
+      "figure": "fig02_f_only",
+      "text_outside_canvas": [],
+      "width_mm": 183.0,
+      "height_mm": 138.0
+    },
+    {
+      "figure": "fig03_composite",
+      "text_outside_canvas": [],
+      "width_mm": 183.0,
+      "height_mm": 204.99999999999997
+    },
+    {
+      "figure": "fig04_tw_minus_t",
+      "text_outside_canvas": [],
+      "width_mm": 183.0,
+      "height_mm": 189.0
+    },
+    {
+      "figure": "fig05_tw_minus_w",
+      "text_outside_canvas": [],
+      "width_mm": 183.0,
+      "height_mm": 145.0
+    },
+    {
+      "figure": "fig06_width_strata",
+      "text_outside_canvas": [],
+      "width_mm": 183.0,
+      "height_mm": 108.0
+    },
+    {
+      "figure": "figS01_precision",
+      "text_outside_canvas": [],
+      "width_mm": 183.0,
+      "height_mm": 154.0
+    }
+  ],
+  "caveat": "Text editability, figure dimensions, TIFF resolution and canvas bounds checked. Visual QA is also required."
+}

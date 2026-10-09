@@ -1,0 +1,11 @@
+{
+  "AllowedModifiedFiles": [
+    "README.md",
+    "pyproject.toml"
+  ],
+  "BaselineMemberCount": 1361,
+  "BaselineTreeSHA256": "fda6069467a58eac08b600522e94aae00f5314ee90fb165ad0f8ea6756197a96",
+  "LockedBeforeFormal": true,
+  "Stage1ThroughStage8TreeUnchanged": true,
+  "Stage8BaselineZIPSHA256": "a440cae9bbef5474bf30d8abc32078646bf76219910a6a37e31863065e233a3b"
+}

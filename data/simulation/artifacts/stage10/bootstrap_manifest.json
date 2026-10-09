@@ -1,0 +1,292 @@
+{
+  "ArtifactSHA256": {
+    "artifacts/stage10/bootstrap_audit_indices.npz": "ff21b44d5d6bf638cbde0f881e9e0bca6a8778b4cf154b125d8511e2ec873b07",
+    "artifacts/stage10/bootstrap_conditions/condition_01_H100/distributions.npz": "14c0a94f424b79ef278effb2e1382cd663d476c6340eb2d0a61b41cf6a493f01",
+    "artifacts/stage10/bootstrap_conditions/condition_01_H100/manifest.json": "6fa0c33c7d08af0e8daf9175661b9ea9108ae68c1295e1444bc9a91ca8d6e367",
+    "artifacts/stage10/bootstrap_conditions/condition_02_H200/distributions.npz": "5aa1e72de23e3dd6bed147260f4bcb66f7ebe63d64f7917e5f7249045a335b71",
+    "artifacts/stage10/bootstrap_conditions/condition_02_H200/manifest.json": "152410aff79ba2a1ceda7ee77aa68bb6d8cf399c7720cde665c61a67081980f8",
+    "artifacts/stage10/bootstrap_conditions/condition_03_H300/distributions.npz": "ba2381baf0206b9c770a50245f3bdbdf792a49bcfddffe3eda2a85153e0642a8",
+    "artifacts/stage10/bootstrap_conditions/condition_03_H300/manifest.json": "98aee26048cf1925fdfd8fcd76c213d0c8423062229d864500b3fd7adbcb6f34",
+    "artifacts/stage10/bootstrap_conditions/condition_04_H400/distributions.npz": "e8e870dbd7643d9734bd6ff8659986e38685f7d7546a61f5ace8e4fea0a98e72",
+    "artifacts/stage10/bootstrap_conditions/condition_04_H400/manifest.json": "ac4d57f86c2f1ec57a7c4ca64e2b144cd03b46154e5dbd1e569d049273619a57",
+    "artifacts/stage10/bootstrap_conditions/condition_05_H500/distributions.npz": "0ff94a61b104634c6d66e84f29e4bf66463f18b7a1bf091751cfa2b6f029d88b",
+    "artifacts/stage10/bootstrap_conditions/condition_05_H500/manifest.json": "426b5f62986bf24b365ce9be928cbb726a7674ecc7040341746ba7f5236ad686",
+    "artifacts/stage10/bootstrap_conditions/condition_06_F1/distributions.npz": "612282ca2a0e8e47a5145abd51296bb475ba0e96d35207ad2e65c3f73fc92d53",
+    "artifacts/stage10/bootstrap_conditions/condition_06_F1/manifest.json": "88ddb07f97352fcb6d68a16a1c190a7e90f5fd7cb0ab2948dfacbd487ce8be73",
+    "artifacts/stage10/bootstrap_conditions/condition_07_F2/distributions.npz": "f3861e53e8a24b877e2a0d59ea42a15f8c761bbaad37326d8c71450587ee52a5",
+    "artifacts/stage10/bootstrap_conditions/condition_07_F2/manifest.json": "3f93ee41dd4b9ef92942cd3de530cb3d9618829758620390cbc020d6a2cd2593",
+    "artifacts/stage10/bootstrap_conditions/condition_08_F3/distributions.npz": "90cadae40ec205cbe40d96cfdcdc598b9f9c3b55982368f9177fe263dd63075e",
+    "artifacts/stage10/bootstrap_conditions/condition_08_F3/manifest.json": "1f9b3359559e7b92a60a0fd5050e322201ecac85e97b7636ecde589b600bff3d",
+    "artifacts/stage10/bootstrap_conditions/condition_09_F4/distributions.npz": "06dec6a4d11154468c169c54abeb4316a7b46409177e1e71d21d39a8fa43f9e1",
+    "artifacts/stage10/bootstrap_conditions/condition_09_F4/manifest.json": "429fc7fd65e7ad6a8b2b6a613f647cc629e74c81a96377649abfe61c90e87dd3",
+    "artifacts/stage10/bootstrap_conditions/condition_10_HF200-1/distributions.npz": "ff77c007d0e4e22114de44c65db158d6817e3121c0e851ec1efc00bd4cadc212",
+    "artifacts/stage10/bootstrap_conditions/condition_10_HF200-1/manifest.json": "c7298e18e5c233da438011a44d6e109ecff2a482cc06c0dbe2a488640feabbbc",
+    "artifacts/stage10/bootstrap_conditions/condition_11_HF200-2/distributions.npz": "fdee0fc182a1fdefed881905c3631610c55348d3925df2191155041df589ca94",
+    "artifacts/stage10/bootstrap_conditions/condition_11_HF200-2/manifest.json": "109f12120c59c9941b9d95f45f7be49f2459720a1a0b70cb0d95d1398d988abb",
+    "artifacts/stage10/bootstrap_conditions/condition_12_HF200-3/distributions.npz": "2d8aa047ad9daa3de459fdaac8f88dd07ba89c20afdc667498fb7c62f9c38a1e",
+    "artifacts/stage10/bootstrap_conditions/condition_12_HF200-3/manifest.json": "7bd0bbbe6e929be0ef1f9c7ca1b3156d7f72e6a1bfdaba7b9d70a78812a2b1ac",
+    "artifacts/stage10/bootstrap_conditions/condition_13_HF300-1/distributions.npz": "1c971986a86a7050bbc8cd1012c32da8ae7cc1fa833b3d0a96e1cc4c23d44019",
+    "artifacts/stage10/bootstrap_conditions/condition_13_HF300-1/manifest.json": "698eb785527046992bddfcb5c9a81a0d075cfba07d53de9420709d9dceb6f5e4",
+    "artifacts/stage10/bootstrap_conditions/condition_14_HF300-2/distributions.npz": "bc75fb0596a06be5a90c7f7f7f19bbe4beb2414d30e8e21f0c0d798fd3d81077",
+    "artifacts/stage10/bootstrap_conditions/condition_14_HF300-2/manifest.json": "cfb026fc55599b056dc4689dcebbc0576eccb94bb13e801ab378b1818bb75903",
+    "artifacts/stage10/bootstrap_conditions/condition_15_HF300-3/distributions.npz": "5e83ae0ef1ac36187e249b3af095a6e102f39e82f20f8de7d025d5eddbc01a87",
+    "artifacts/stage10/bootstrap_conditions/condition_15_HF300-3/manifest.json": "b13f79e8fe1d13dc88b8e57c42bb85464c8505fa6e97fd9e9c711d6a1b3227bf",
+    "artifacts/stage10/bootstrap_conditions/condition_16_HF500-1/distributions.npz": "21c81f0cc76eed2fe873264a624630ad4e396def9672e5a4f72a1aca24163543",
+    "artifacts/stage10/bootstrap_conditions/condition_16_HF500-1/manifest.json": "bdafa9f55ca24372fc2078c010a8eaec5dda3db04c19007ae24df8cd26301efb",
+    "artifacts/stage10/bootstrap_conditions/condition_17_HF500-2/distributions.npz": "07011f39728bfa5eb3faf56b211e74505b0893fc1084081a63c92bec97dfc545",
+    "artifacts/stage10/bootstrap_conditions/condition_17_HF500-2/manifest.json": "2da3eddadbcca0a09fec0e46ae8055bcdcf316af5dd7db0be2b048f42b8520cc",
+    "artifacts/stage10/bootstrap_conditions/condition_18_HF500-3/distributions.npz": "e4fe445f659730e2e122551a59899bd2743080b32853ee6df66b9e19a1891ab5",
+    "artifacts/stage10/bootstrap_conditions/condition_18_HF500-3/manifest.json": "bb9737981a4b8ecd8e5909ad2cdec5c71e0842bab266b11d05038ed6497fb43b",
+    "artifacts/stage10/bootstrap_distributions.npz": "370e11118c828c092a0c86037488025555578e2040364d776940887a8b2c8cad",
+    "artifacts/stage10/bootstrap_individual_summary.csv": "ad9bca843ff063d1a9cc26d134f8fc43b3cdeb9460f850e9e5afbda6c0d5f0b1",
+    "artifacts/stage10/bootstrap_paired_summary.csv": "2e864379ff8985fce28cfc7fd9d71f29ca5ec593fd7340dfeaf586684d7e58fe",
+    "artifacts/stage10/changed_files.txt": "0cf81eda4377948fff6fa07541e23c91edb21993a3b10ba71d43df1c1ba7743e",
+    "artifacts/stage10/ni_consistency_report.json": "3fcc11e13a40b7ae177643c71c7287878c33fb43a124d8d8604c96288f9d19bc",
+    "artifacts/stage10/stage10_science_contract.json": "fdaa84d99e3b9e8fbcebe091c7a173a90ba5a42cef054f48c79eca01179656fd",
+    "artifacts/stage10/stage8_precision_target_audit.csv": "361e5b017cb078545c032a17f98104887ae46703a1a921d6cf8689e3ae9988e4",
+    "artifacts/stage10/stage9_input_identity.json": "bb99b3221f9b8360f551a52cf753642dab9f34be75336fdff86257ab3d818fe2",
+    "artifacts/stage10/status.json": "91cb29d8c06aeabfed7b8dbfe3a46f26ee236533e12a045753b4cee24a57ecf6",
+    "artifacts/stage10/test_report.txt": "97b1bb060e7e459f97a2c6ff3611bd62492526f02cb35c538035194d2652dc65",
+    "artifacts/stage10/validation_report.md": "55ef73456e44553895a78c45dfe95994e209ef9c9728889e7e8027f2231df5df"
+  },
+  "BootstrapAudit": {
+    "BootstrapAuditIDs": [
+      1,
+      1000,
+      2000
+    ],
+    "BootstrapAuditIndexCount": 108000,
+    "ExactReproducibilityPassed": true,
+    "IndependentRerunArraySHA256": "eda735509771cf8e917d5fc28aa5e3024fb023a36e22a284caf58f2191e7278d",
+    "PrimaryArraySHA256": "eda735509771cf8e917d5fc28aa5e3024fb023a36e22a284caf58f2191e7278d"
+  },
+  "BootstrapB": 2000,
+  "BootstrapDrawCountPerReplicate": 2000,
+  "BootstrapNamespace": "BOOTSTRAP",
+  "ConditionCount": 18,
+  "ConditionOutputs": [
+    {
+      "ConditionCode": "H100",
+      "ConditionOrdinal": 1,
+      "DistributionSHA256": "14c0a94f424b79ef278effb2e1382cd663d476c6340eb2d0a61b41cf6a493f01",
+      "ManifestSHA256": "6fa0c33c7d08af0e8daf9175661b9ea9108ae68c1295e1444bc9a91ca8d6e367",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "H200",
+      "ConditionOrdinal": 2,
+      "DistributionSHA256": "5aa1e72de23e3dd6bed147260f4bcb66f7ebe63d64f7917e5f7249045a335b71",
+      "ManifestSHA256": "152410aff79ba2a1ceda7ee77aa68bb6d8cf399c7720cde665c61a67081980f8",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "H300",
+      "ConditionOrdinal": 3,
+      "DistributionSHA256": "ba2381baf0206b9c770a50245f3bdbdf792a49bcfddffe3eda2a85153e0642a8",
+      "ManifestSHA256": "98aee26048cf1925fdfd8fcd76c213d0c8423062229d864500b3fd7adbcb6f34",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "H400",
+      "ConditionOrdinal": 4,
+      "DistributionSHA256": "e8e870dbd7643d9734bd6ff8659986e38685f7d7546a61f5ace8e4fea0a98e72",
+      "ManifestSHA256": "ac4d57f86c2f1ec57a7c4ca64e2b144cd03b46154e5dbd1e569d049273619a57",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "H500",
+      "ConditionOrdinal": 5,
+      "DistributionSHA256": "0ff94a61b104634c6d66e84f29e4bf66463f18b7a1bf091751cfa2b6f029d88b",
+      "ManifestSHA256": "426b5f62986bf24b365ce9be928cbb726a7674ecc7040341746ba7f5236ad686",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "F1",
+      "ConditionOrdinal": 6,
+      "DistributionSHA256": "612282ca2a0e8e47a5145abd51296bb475ba0e96d35207ad2e65c3f73fc92d53",
+      "ManifestSHA256": "88ddb07f97352fcb6d68a16a1c190a7e90f5fd7cb0ab2948dfacbd487ce8be73",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "F2",
+      "ConditionOrdinal": 7,
+      "DistributionSHA256": "f3861e53e8a24b877e2a0d59ea42a15f8c761bbaad37326d8c71450587ee52a5",
+      "ManifestSHA256": "3f93ee41dd4b9ef92942cd3de530cb3d9618829758620390cbc020d6a2cd2593",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "F3",
+      "ConditionOrdinal": 8,
+      "DistributionSHA256": "90cadae40ec205cbe40d96cfdcdc598b9f9c3b55982368f9177fe263dd63075e",
+      "ManifestSHA256": "1f9b3359559e7b92a60a0fd5050e322201ecac85e97b7636ecde589b600bff3d",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "F4",
+      "ConditionOrdinal": 9,
+      "DistributionSHA256": "06dec6a4d11154468c169c54abeb4316a7b46409177e1e71d21d39a8fa43f9e1",
+      "ManifestSHA256": "429fc7fd65e7ad6a8b2b6a613f647cc629e74c81a96377649abfe61c90e87dd3",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF200-1",
+      "ConditionOrdinal": 10,
+      "DistributionSHA256": "ff77c007d0e4e22114de44c65db158d6817e3121c0e851ec1efc00bd4cadc212",
+      "ManifestSHA256": "c7298e18e5c233da438011a44d6e109ecff2a482cc06c0dbe2a488640feabbbc",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF200-2",
+      "ConditionOrdinal": 11,
+      "DistributionSHA256": "fdee0fc182a1fdefed881905c3631610c55348d3925df2191155041df589ca94",
+      "ManifestSHA256": "109f12120c59c9941b9d95f45f7be49f2459720a1a0b70cb0d95d1398d988abb",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF200-3",
+      "ConditionOrdinal": 12,
+      "DistributionSHA256": "2d8aa047ad9daa3de459fdaac8f88dd07ba89c20afdc667498fb7c62f9c38a1e",
+      "ManifestSHA256": "7bd0bbbe6e929be0ef1f9c7ca1b3156d7f72e6a1bfdaba7b9d70a78812a2b1ac",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF300-1",
+      "ConditionOrdinal": 13,
+      "DistributionSHA256": "1c971986a86a7050bbc8cd1012c32da8ae7cc1fa833b3d0a96e1cc4c23d44019",
+      "ManifestSHA256": "698eb785527046992bddfcb5c9a81a0d075cfba07d53de9420709d9dceb6f5e4",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF300-2",
+      "ConditionOrdinal": 14,
+      "DistributionSHA256": "bc75fb0596a06be5a90c7f7f7f19bbe4beb2414d30e8e21f0c0d798fd3d81077",
+      "ManifestSHA256": "cfb026fc55599b056dc4689dcebbc0576eccb94bb13e801ab378b1818bb75903",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF300-3",
+      "ConditionOrdinal": 15,
+      "DistributionSHA256": "5e83ae0ef1ac36187e249b3af095a6e102f39e82f20f8de7d025d5eddbc01a87",
+      "ManifestSHA256": "b13f79e8fe1d13dc88b8e57c42bb85464c8505fa6e97fd9e9c711d6a1b3227bf",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF500-1",
+      "ConditionOrdinal": 16,
+      "DistributionSHA256": "21c81f0cc76eed2fe873264a624630ad4e396def9672e5a4f72a1aca24163543",
+      "ManifestSHA256": "bdafa9f55ca24372fc2078c010a8eaec5dda3db04c19007ae24df8cd26301efb",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF500-2",
+      "ConditionOrdinal": 17,
+      "DistributionSHA256": "07011f39728bfa5eb3faf56b211e74505b0893fc1084081a63c92bec97dfc545",
+      "ManifestSHA256": "2da3eddadbcca0a09fec0e46ae8055bcdcf316af5dd7db0be2b048f42b8520cc",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    },
+    {
+      "ConditionCode": "HF500-3",
+      "ConditionOrdinal": 18,
+      "DistributionSHA256": "e4fe445f659730e2e122551a59899bd2743080b32853ee6df66b9e19a1891ab5",
+      "ManifestSHA256": "bb9737981a4b8ecd8e5909ad2cdec5c71e0842bab266b11d05038ed6497fb43b",
+      "PreValidationReason": "MISSING_CONDITION_OUTPUT",
+      "ResumeUsed": false
+    }
+  ],
+  "ExecutionPathGate": {
+    "FormalRerunCallAbsent": true,
+    "MethodAbsentFromRandomAddress": true,
+    "NumpyRandomCallAbsent": true,
+    "PhysicalSimulationCallAbsent": true,
+    "Stage11CallAbsent": true
+  },
+  "FormalPointEstimateCrosscheck": {
+    "AggregateRowCount": 95,
+    "CoreMetricScalarCheckCount": 380,
+    "IEEE754CSVSerializationTolerance": 1e-15,
+    "MaximumAbsoluteDifference": 0.0,
+    "Passed": true
+  },
+  "FormalRerunExecuted": false,
+  "FullPytestAuthorizedFailureNodes": [
+    "tests/test_stage8_decision.py::test_stage1_through_stage7_byte_identity_and_frozen_science_gate",
+    "tests/test_stage9_contract.py::test_stage8_identity_and_decision_boundary_are_independently_verified"
+  ],
+  "HardGates": {
+    "AuditIndexShape": [
+      18,
+      3,
+      2000
+    ],
+    "ContrastScopePassed": true,
+    "DeltaDirectionPassed": true,
+    "IndividualDistributionShape": [
+      18,
+      5,
+      4,
+      2000
+    ],
+    "IndividualSummaryRows": 360,
+    "MeanLNCNonnegativePassed": true,
+    "NaNDefinedMaskIdentityPassed": true,
+    "PairedDistributionShape": [
+      18,
+      2,
+      4,
+      2000
+    ],
+    "PairedSummaryRows": 144,
+    "ProbabilityBoundsPassed": true,
+    "Stage11Absent": true,
+    "Stage8PrecisionAuditRows": 216
+  },
+  "IdentityHashes": {
+    "FormalAggregatedMetricsSHA256": "803856c4d776b53b63e7e6f8be4425ce96ddb05c49aaca97c049134b04644865",
+    "FormalH300WidthStrataSHA256": "4e70f33ba195070a75e35fc6b3d14b7d5d7851b4ca414fcac7e8f24046a108b4",
+    "FormalRepeatMetricsSHA256": "e3084733adf9fa3f2325b0407b4358aeae118df8f6a152a4c1f5984757f3f8f6",
+    "Stage10PreFormalContractSHA256": "79fdae99716ea047d44171b332b2e2fc5bdeb311fa454b8092ba1f008c6b6b7a",
+    "Stage10ScienceContractSHA256": "fdaa84d99e3b9e8fbcebe091c7a173a90ba5a42cef054f48c79eca01179656fd",
+    "Stage10TaskbookSHA256": "c36b4df1fc3781a83d84751e3333c01c5331e5a62b7c1ac8d687e8f49f1f8070",
+    "Stage8RegressionZipSHA256": "a440cae9bbef5474bf30d8abc32078646bf76219910a6a37e31863065e233a3b",
+    "Stage9BaselineZipSHA256": "df1f4611d968e7911527592e32a7a24101c711e4306069f5dcaafebd745f2af5"
+  },
+  "IndependentUnit": "Repeat",
+  "ManifestSchema": "STAGE10_BOOTSTRAP_MANIFEST_V1",
+  "PValueGenerated": false,
+  "PersistentResumeUnit": "Condition",
+  "PhysicalSimulationExecuted": false,
+  "ProjectedPrecisionWarning": true,
+  "RNGPreflight": {
+    "GoldenRepeatIDCount": 50,
+    "GoldenVectorGroupCount": 5,
+    "Passed": true,
+    "ScalarVectorRawWordCheckCount": 50
+  },
+  "RemainingPytestErrors": 0,
+  "RemainingPytestFailed": 0,
+  "Stage": 10,
+  "Stage10CodeSHA256": "629b74a315049afa275942493f34977bb5155580c4e9300e4ab15f68a8ef2efe",
+  "Stage11Executed": false,
+  "StageName": "BOOTSTRAP_B2000_PAIRED_REPEAT",
+  "Status": "PASS",
+  "StopAfterStage10": true,
+  "VectorizationBlockSize": 50,
+  "Workers": 1
+}

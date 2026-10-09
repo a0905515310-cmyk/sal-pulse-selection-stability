@@ -1,0 +1,19 @@
+{
+  "CodeSHA256": "b50c0a138e7d5b3a71a94ebcc4b0c3caec6567dfafe3bdfc071c4c50fcaeb7c7",
+  "CodeVersion": "0.7.0",
+  "Completed": true,
+  "ConditionCode": "F1",
+  "ConditionOrdinal": 6,
+  "DataSHA256": "8bfdc43733799710c11adc3c941dc9ee2135884ee40baa86b47106ec07c8b283",
+  "Namespace": "PILOT",
+  "PilotR": 200,
+  "RepeatCount": 20,
+  "RepeatEnd": 80,
+  "RepeatMetricsSHA256": "f750f84be7bd00d7662e940a1f25b92c1a914e56d54d984e9e71598c403475e8",
+  "RepeatStart": 61,
+  "RunKind": "PILOT",
+  "SchemaVersion": 1,
+  "StateSHA256": "d8962d41fcd1adde7d3d85674c9c1ef1a22c9488e64f2da96f7de21fece99ac8",
+  "StudyConfigSHA256": "4419f964beee079f67c83ed759b0b8295052d46a037e692c844a81337b232ecb",
+  "TrajectorySHA256": "22988a6b8a28634a90c90c4e388da74877b49d672420a41e986c4cfa0af70bcf"
+}

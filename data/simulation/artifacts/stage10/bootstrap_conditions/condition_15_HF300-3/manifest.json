@@ -1,0 +1,49 @@
+{
+  "AuditIDs": [
+    1,
+    1000,
+    2000
+  ],
+  "AuditIndicesSHA256": "427941e1d15725f95f5b33a71dc86032976efb307e77516805c1e40828966557",
+  "BootstrapB": 2000,
+  "BootstrapDrawCountPerReplicate": 2000,
+  "BootstrapIDRange": [
+    1,
+    2000
+  ],
+  "BootstrapNamespace": "BOOTSTRAP",
+  "Completed": true,
+  "ConditionCode": "HF300-3",
+  "ConditionOrdinal": 15,
+  "ContrastCodes": [
+    "TW-T",
+    "TW-W"
+  ],
+  "DistributionSHA256": "5e83ae0ef1ac36187e249b3af095a6e102f39e82f20f8de7d025d5eddbc01a87",
+  "FormalRepeatCount": 2000,
+  "IdentityHashes": {
+    "FormalRepeatMetricsSHA256": "e3084733adf9fa3f2325b0407b4358aeae118df8f6a152a4c1f5984757f3f8f6",
+    "Stage10CodeSHA256": "629b74a315049afa275942493f34977bb5155580c4e9300e4ab15f68a8ef2efe",
+    "Stage10ScienceContractSHA256": "fdaa84d99e3b9e8fbcebe091c7a173a90ba5a42cef054f48c79eca01179656fd",
+    "Stage9BaselineZipSHA256": "df1f4611d968e7911527592e32a7a24101c711e4306069f5dcaafebd745f2af5"
+  },
+  "IndependentUnit": "Repeat",
+  "ManifestSchema": "STAGE10_CONDITION_BOOTSTRAP_MANIFEST_V1",
+  "MethodCodes": [
+    "FIRST",
+    "LAST",
+    "T",
+    "W",
+    "TW"
+  ],
+  "MetricCodes": [
+    "P_cor",
+    "P_C_given_C",
+    "P_C_given_E",
+    "Mean_L_NC"
+  ],
+  "PersistentResumeUnit": "Condition",
+  "Stage": 10,
+  "VectorizationBlockSize": 50,
+  "Workers": 1
+}

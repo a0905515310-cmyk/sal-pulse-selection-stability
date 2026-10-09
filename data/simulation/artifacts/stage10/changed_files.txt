@@ -1,0 +1,28 @@
+STAGE 10 CHANGED FILES
+
+ADDED STATIC FILES:
+- STAGE10_TASKBOOK.md
+- scripts/build_stage10.py
+- src/sal_stability_stage1/bootstrap.py
+- src/sal_stability_stage1/bootstrap_storage.py
+- src/sal_stability_stage1/stage10.py
+- tests/test_stage10_contract.py
+- tests/test_stage10_execution.py
+- tests/test_stage10_metrics.py
+- tests/test_stage10_rng.py
+- tests/test_stage10_storage.py
+
+ADDED ARTIFACT TREE:
+- artifacts/stage10/** | 45 files before final manifest
+
+MODIFIED FILES:
+- README.md
+- pyproject.toml
+
+FROZEN STAGE 1-9 TREE:
+- Baseline member count: 5342
+- Baseline tree SHA256: 559ad4f86f55a0207d1c828c9dcb4688ce23cb426c0056a0853182635b4e65b6
+- Unexpected modified files: NONE
+- Deleted files: NONE
+
+SCIENCE CONTRACT CHANGED: NO

@@ -1,0 +1,899 @@
+STAGE 7 CHANGED FILES
+
+ADDED FILES:
+- artifacts/stage7/changed_files.txt | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/performance.json | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/pilot_aggregated_metrics.csv | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_00_ni/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_01_h100/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_02_h200/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_101_120/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_121_140/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_141_160/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_161_180/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_181_200/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_1_20/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_21_40/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_41_60/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_61_80/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_81_100/chunk_h300_width_strata.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_03_h300/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_04_h400/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_05_h500/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_06_f1/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_07_f2/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_08_f3/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_09_f4/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_10_hf200-1/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_11_hf200-2/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_12_hf200-3/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_13_hf300-1/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_14_hf300-2/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_15_hf300-3/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_16_hf500-1/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_17_hf500-2/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_101_120/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_101_120/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_101_120/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_101_120/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_121_140/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_121_140/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_121_140/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_121_140/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_141_160/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_141_160/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_141_160/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_141_160/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_161_180/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_161_180/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_161_180/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_161_180/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_181_200/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_181_200/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_181_200/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_181_200/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_1_20/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_1_20/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_1_20/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_1_20/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_21_40/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_21_40/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_21_40/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_21_40/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_41_60/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_41_60/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_41_60/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_41_60/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_61_80/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_61_80/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_61_80/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_61_80/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_81_100/chunk_manifest.json | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_81_100/chunk_repeat_metrics.csv | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_81_100/chunk_state.npy | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_chunks/condition_18_hf500-3/repeats_81_100/chunk_trajectory.npz | Stage 7 formal Pilot atomic chunk artifact
+- artifacts/stage7/pilot_h300_width_strata.csv | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/pilot_manifest.json | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/pilot_repeat_metrics.csv | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10001_10002/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10001_10002/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10001_10002/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10001_10002/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10003_10004/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10003_10004/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10003_10004/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10003_10004/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10005_10005/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10005_10005/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10005_10005/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/F2/condition_07_f2/repeats_10005_10005/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10001_10002/chunk_h300_width_strata.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10001_10002/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10001_10002/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10001_10002/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10001_10002/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10003_10004/chunk_h300_width_strata.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10003_10004/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10003_10004/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10003_10004/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10003_10004/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10005_10005/chunk_h300_width_strata.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10005_10005/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10005_10005/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10005_10005/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/H300/condition_03_h300/repeats_10005_10005/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10001_10002/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10001_10002/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10001_10002/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10001_10002/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10003_10004/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10003_10004/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10003_10004/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10003_10004/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10005_10005/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10005_10005/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10005_10005/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/fresh_parallel_chunk/HF300-2/condition_14_hf300-2/repeats_10005_10005/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10001_10002/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10001_10002/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10001_10002/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10001_10002/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10003_10004/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10003_10004/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10003_10004/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10003_10004/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10005_10005/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10005_10005/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10005_10005/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/F2/condition_07_f2/repeats_10005_10005/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10001_10002/chunk_h300_width_strata.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10001_10002/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10001_10002/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10001_10002/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10001_10002/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10003_10004/chunk_h300_width_strata.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10003_10004/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10003_10004/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10003_10004/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10003_10004/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10005_10005/chunk_h300_width_strata.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10005_10005/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10005_10005/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10005_10005/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/H300/condition_03_h300/repeats_10005_10005/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10001_10002/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10001_10002/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10001_10002/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10001_10002/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10003_10004/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10003_10004/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10003_10004/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10003_10004/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10005_10005/chunk_manifest.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10005_10005/chunk_repeat_metrics.csv | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10005_10005/chunk_state.npy | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/interrupted_resume/HF300-2/condition_14_hf300-2/repeats_10005_10005/chunk_trajectory.npz | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/preflight/preflight_report.json | Stage 7 combined parallel+chunk+resume preflight artifact
+- artifacts/stage7/stage8_decision_input.csv | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/stage8_r_decision_contract.json | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/status.json | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/test_report.txt | Stage 7 contract, global output, validation, or status artifact
+- artifacts/stage7/validation_report.md | Stage 7 contract, global output, validation, or status artifact
+- scripts/build_stage7.py | Stage 7 fixed-order build entry point
+- src/sal_stability_stage1/pilot_storage.py | Stage 7 isolated implementation layer
+- src/sal_stability_stage1/stage7.py | Stage 7 isolated implementation layer
+- tests/test_stage7_aggregation.py | Stage 7 contract and execution regression coverage
+- tests/test_stage7_contract.py | Stage 7 contract and execution regression coverage
+- tests/test_stage7_pilot_storage.py | Stage 7 contract and execution regression coverage
+- tests/test_stage7_preflight.py | Stage 7 contract and execution regression coverage
+- tests/test_stage7_stage8_input.py | Stage 7 contract and execution regression coverage
+
+MODIFIED FILES:
+- README.md | Stage 7 execution and STOP boundary documented
+- pyproject.toml | Project version updated to 0.7.0 without dependency changes
+
+FROZEN SCIENCE FILES:
+- src/sal_stability_stage1/contracts.py | UNCHANGED
+- src/sal_stability_stage1/encoding.py | UNCHANGED
+- src/sal_stability_stage1/rng.py | UNCHANGED
+- src/sal_stability_stage1/events.py | UNCHANGED
+- src/sal_stability_stage1/hprf.py | UNCHANGED
+- src/sal_stability_stage1/selectors.py | UNCHANGED
+- src/sal_stability_stage1/metrics.py | UNCHANGED
+- src/sal_stability_stage1/kernel.py | UNCHANGED
+- src/sal_stability_stage1/diagnostics.py | UNCHANGED
+- src/sal_stability_stage1/execution.py | UNCHANGED
+- src/sal_stability_stage1/storage.py | UNCHANGED
+- src/sal_stability_stage1/stage3.py | UNCHANGED
+- src/sal_stability_stage1/stage4.py | UNCHANGED
+- src/sal_stability_stage1/stage5.py | UNCHANGED
+- src/sal_stability_stage1/stage6.py | UNCHANGED
+- artifacts/config/study_config.json | UNCHANGED
+- artifacts/config/encoding_reference.csv | UNCHANGED
+- artifacts/config/encoding_reference.npz | UNCHANGED
+- artifacts/config/rng_test_vectors.csv | UNCHANGED
+
+DELETED FILES:
+- NONE

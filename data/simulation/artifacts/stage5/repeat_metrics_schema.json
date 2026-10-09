@@ -1,0 +1,128 @@
+{
+  "K": 200,
+  "counts_are_integer": true,
+  "effective_interval_count": 199,
+  "fields": [
+    {
+      "name": "ConditionOrdinal",
+      "type": "integer"
+    },
+    {
+      "name": "ConditionCode",
+      "type": "string"
+    },
+    {
+      "name": "MethodOrdinal",
+      "type": "integer"
+    },
+    {
+      "name": "MethodCode",
+      "type": "string"
+    },
+    {
+      "name": "RepeatID",
+      "type": "integer"
+    },
+    {
+      "name": "N_C",
+      "type": "integer"
+    },
+    {
+      "name": "N_E",
+      "type": "integer"
+    },
+    {
+      "name": "N_N",
+      "type": "integer"
+    },
+    {
+      "name": "N_CC",
+      "type": "integer"
+    },
+    {
+      "name": "N_CE",
+      "type": "integer"
+    },
+    {
+      "name": "N_CN",
+      "type": "integer"
+    },
+    {
+      "name": "N_EC",
+      "type": "integer"
+    },
+    {
+      "name": "N_EE",
+      "type": "integer"
+    },
+    {
+      "name": "N_EN",
+      "type": "integer"
+    },
+    {
+      "name": "N_NC",
+      "type": "integer"
+    },
+    {
+      "name": "N_NE",
+      "type": "integer"
+    },
+    {
+      "name": "N_NN",
+      "type": "integer"
+    },
+    {
+      "name": "N_Cdot",
+      "type": "integer"
+    },
+    {
+      "name": "N_Edot",
+      "type": "integer"
+    },
+    {
+      "name": "N_Ndot",
+      "type": "integer"
+    },
+    {
+      "name": "N_run_NC",
+      "type": "integer"
+    },
+    {
+      "name": "Sum_L_NC_obs",
+      "type": "integer"
+    },
+    {
+      "name": "N_open_NC",
+      "type": "integer"
+    },
+    {
+      "name": "EndState",
+      "type": {
+        "enum": [
+          "C",
+          "E",
+          "N"
+        ],
+        "type": "string"
+      }
+    },
+    {
+      "name": "N_E_H",
+      "type": "integer"
+    },
+    {
+      "name": "N_E_F",
+      "type": "integer"
+    }
+  ],
+  "primary_key": [
+    "ConditionOrdinal",
+    "ConditionCode",
+    "MethodOrdinal",
+    "MethodCode",
+    "RepeatID"
+  ],
+  "probabilities_are_not_stored_per_repeat": true,
+  "row_unit": "one Condition-Method-Repeat",
+  "schema_name": "SAL_STAGE5_REPEAT_METRICS_V1"
+}

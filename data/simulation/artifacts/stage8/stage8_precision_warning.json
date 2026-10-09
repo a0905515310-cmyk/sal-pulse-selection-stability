@@ -1,0 +1,69 @@
+{
+  "IndividualCells": [
+    {
+      "ConditionCode": "H100",
+      "ConditionOrdinal": 1,
+      "MethodCode": "TW",
+      "MethodOrdinal": 4,
+      "Metric": "P_C_given_E",
+      "ProjectedHalfWidthR2000": 0.09161528429260131,
+      "RequiredR": 41967
+    },
+    {
+      "ConditionCode": "H200",
+      "ConditionOrdinal": 2,
+      "MethodCode": "TW",
+      "MethodOrdinal": 4,
+      "Metric": "P_C_given_E",
+      "ProjectedHalfWidthR2000": 0.05838082393554508,
+      "RequiredR": 17042
+    },
+    {
+      "ConditionCode": "F4",
+      "ConditionOrdinal": 9,
+      "MethodCode": "T",
+      "MethodOrdinal": 2,
+      "Metric": "Mean_L_NC",
+      "ProjectedHalfWidthR2000": 0.2810406111227929,
+      "RequiredR": 2528
+    },
+    {
+      "ConditionCode": "HF500-3",
+      "ConditionOrdinal": 18,
+      "MethodCode": "T",
+      "MethodOrdinal": 2,
+      "Metric": "Mean_L_NC",
+      "ProjectedHalfWidthR2000": 0.2611087071180789,
+      "RequiredR": 2182
+    }
+  ],
+  "IndividualExceedR2000Count": 4,
+  "PairedCells": [
+    {
+      "ConditionCode": "H100",
+      "ConditionOrdinal": 1,
+      "MethodPair": "T-TW",
+      "Metric": "P_C_given_E",
+      "ProjectedHalfWidthR2000": 0.09256279215188723,
+      "RequiredR": 42840
+    },
+    {
+      "ConditionCode": "H200",
+      "ConditionOrdinal": 2,
+      "MethodPair": "T-TW",
+      "Metric": "P_C_given_E",
+      "ProjectedHalfWidthR2000": 0.05907512457995426,
+      "RequiredR": 17450
+    },
+    {
+      "ConditionCode": "HF500-3",
+      "ConditionOrdinal": 18,
+      "MethodPair": "T-TW",
+      "Metric": "Mean_L_NC",
+      "ProjectedHalfWidthR2000": 0.2690246113624147,
+      "RequiredR": 2316
+    }
+  ],
+  "PairedExceedR2000Count": 3,
+  "ProjectedPrecisionWarning": true
+}

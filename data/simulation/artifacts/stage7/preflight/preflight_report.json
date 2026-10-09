@@ -1,0 +1,72 @@
+{
+  "ChunkSize": 2,
+  "Conditions": [
+    {
+      "ConditionCode": "H300",
+      "ConditionOrdinal": 3,
+      "InterruptedCompleted": false,
+      "Namespace": "PILOT",
+      "RepeatIDs": [
+        10001,
+        10002,
+        10003,
+        10004,
+        10005
+      ],
+      "ResumeComputedChunks": 2,
+      "ResumeSkippedChunks": 1,
+      "RunKind": "VALIDATION",
+      "SerialEqualsFreshParallelChunk": true,
+      "SerialEqualsInterruptedThenParallelChunkResume": true
+    },
+    {
+      "ConditionCode": "F2",
+      "ConditionOrdinal": 7,
+      "InterruptedCompleted": false,
+      "Namespace": "PILOT",
+      "RepeatIDs": [
+        10001,
+        10002,
+        10003,
+        10004,
+        10005
+      ],
+      "ResumeComputedChunks": 2,
+      "ResumeSkippedChunks": 1,
+      "RunKind": "VALIDATION",
+      "SerialEqualsFreshParallelChunk": true,
+      "SerialEqualsInterruptedThenParallelChunkResume": true
+    },
+    {
+      "ConditionCode": "HF300-2",
+      "ConditionOrdinal": 14,
+      "InterruptedCompleted": false,
+      "Namespace": "PILOT",
+      "RepeatIDs": [
+        10001,
+        10002,
+        10003,
+        10004,
+        10005
+      ],
+      "ResumeComputedChunks": 2,
+      "ResumeSkippedChunks": 1,
+      "RunKind": "VALIDATION",
+      "SerialEqualsFreshParallelChunk": true,
+      "SerialEqualsInterruptedThenParallelChunkResume": true
+    }
+  ],
+  "EqualNaNOnlyForSelectedObservedTOA": true,
+  "ExactEquality": true,
+  "Namespace": "PILOT",
+  "Passed": true,
+  "RepeatIDs": [
+    10001,
+    10002,
+    10003,
+    10004,
+    10005
+  ],
+  "RunKind": "VALIDATION",
+  "Workers": 2
+}
